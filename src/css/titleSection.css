@@ -11,9 +11,8 @@
   -moz-animation: TitleGrad 15s ease infinite;
   -o-animation: TitleGrad 15s ease infinite;
   animation: TitleGrad 15s ease infinite;
-
-
 }
+
 @-webkit-keyframes TitleGrad {
   0%{background-position:69% 0%}
   50%{background-position:32% 100%}
@@ -46,4 +45,19 @@
   height: auto;
   margin: 0 auto;
   position: relative;
+}
+.titleSection i:hover{
+  color: black;
+}
+#fishBowl {
+  width: auto;
+  height: 100vh;
+  position: relative;
+
+}
+#fish {
+  display: block;
+  height: 100px;
+  width: auto;
+  position: absolute;
 }
