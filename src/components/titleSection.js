@@ -9,18 +9,42 @@ class TitleSection extends Component {
   componentDidMount(){
     const fish = document.getElementById("fish");
     let x = 0;
+    let y = 100;
 
     let direction = 'right';
     fish.style.top = '15%';
-    setInterval(swim, 8);
+    let swimDown = false;
+
+    setInterval(swim, 5);
+
 
     function swim(){
       let screenWidth = window.innerWidth - 150;
+      let screenHeightLimit = window.innerHeight - 200;
+
+      // y = (Math.sin(x)) * 100;
 
       if(x <= screenWidth && direction === 'right'){
         fish.style.webkittransform = 'scaleX(-1)';
         fish.style.transform = 'scaleX(-1)';
         x++;
+
+        if(swimDown === false){
+          console.log('swimming up');
+          y--;
+          if(y === 0){
+            swimDown = true;
+          }
+        }
+        else{
+          console.log('swimming up');
+          y++;
+          if(y === screenHeightLimit){
+            swimDown = false;
+          }
+        }
+
+        fish.style.top = y + 'px';
         fish.style.left = x + 'px';
       }
       else{
