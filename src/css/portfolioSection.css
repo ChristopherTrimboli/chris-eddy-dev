@@ -1,8 +1,8 @@
-.aboutSection {
-  height: 80vh;
+.portfolioSection {
+  height: 50vh;
   width: auto;
   position: relative;
   color: black;
-  background-color: whitesmoke;
+  background-color: #654373;
   text-align: center;
 }

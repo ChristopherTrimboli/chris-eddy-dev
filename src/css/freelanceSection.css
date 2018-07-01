@@ -1,8 +1,8 @@
-.aboutSection {
-  height: 80vh;
+.freelanceSection {
+  height: 50vh;
   width: auto;
   position: relative;
   color: black;
-  background-color: whitesmoke;
+  background-color: #fabfee;
   text-align: center;
 }

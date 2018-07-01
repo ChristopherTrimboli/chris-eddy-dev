@@ -1,6 +1,8 @@
 .footerSection {
   height: 5vh;
   width: auto;
+  margin: 0;
+  padding: 0;
   position: relative;
   color: black;
   background-color: #39acff;

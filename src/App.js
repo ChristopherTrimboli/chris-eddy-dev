@@ -5,6 +5,10 @@ import TitleSection from "./components/titleSection";
 import AboutSection from "./components/about";
 import './css/App.css';
 import Footer from "./components/footer";
+import ContactSection from "./components/contactSection";
+import PortfolioSection from "./components/portfolioSection";
+import FreelanceSection from "./components/freelanceSection";
+
 
 class App extends Component {
   render() {
@@ -13,6 +17,9 @@ class App extends Component {
         <Navbar/>
         <TitleSection/>
         <AboutSection/>
+        <PortfolioSection/>
+        <FreelanceSection/>
+        <ContactSection/>
         <Footer/>
       </div>
     );
