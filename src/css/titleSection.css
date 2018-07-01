@@ -1,6 +1,7 @@
 .titleSection{
-  width: auto;
   height: 100vh;
+  width: auto;
+  overflow: hidden;
   position: relative;
   color: white;
 
@@ -49,13 +50,13 @@
 .titleSection i:hover{
   color: black;
 }
-#fishBowl {
-  width: auto;
+.titleSection #fishBowl {
+  width: 100vw;
   height: 100vh;
   position: relative;
-
+  overflow: hidden;
 }
-#fish {
+.titleSection #fish {
   display: block;
   height: 100px;
   width: auto;

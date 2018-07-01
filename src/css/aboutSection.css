@@ -1,0 +1,8 @@
+.aboutSection {
+  height: 100vh;
+  width: auto;
+  position: relative;
+  color: black;
+  background-color: whitesmoke;
+  text-align: center;
+}

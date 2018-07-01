@@ -1,27 +1,21 @@
 import React, { Component } from 'react';
-import '../css/titleSection.css';
-import profileImage from '../images/me.png';
+import '../css/aboutSection.css';
 
 
-class TitleSection extends Component {
+class AboutSection extends Component {
   render() {
     return (
-      <div className="titleSection d-flex">
-        <div className='centeredDiv justify-content-center align-self-center'>
+      <div className="aboutSection">
 
-          <div className='row'>
-            <div className='col-12 d-flex justify-content-center align-self-center'>
-              <img src={profileImage} className='profileImage' alt='profileImage'/>
-            </div>
-            <div className='col-12 d-flex justify-content-center align-self-center'>
-              <h1 className='display-4'>Chris Eddy</h1>
-            </div>
-            <div className='col-12 d-flex justify-content-center align-self-center'>
-              <p className='lead'>
-                Software Developer.
-              </p>
-            </div>
+        <div className='row pt-5'>
+          <div className='col-12'>
+            <h1 className='display-4'>About Me</h1>
+          </div>
+        </div>
 
+        <div className='row'>
+          <div className='col-6'>
+            <h3 className='display-4'>My Life</h3>
           </div>
         </div>
 
@@ -30,4 +24,4 @@ class TitleSection extends Component {
   }
 }
 
-export default TitleSection;
+export default AboutSection;

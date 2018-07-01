@@ -1,4 +1,15 @@
 .App .row{
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0;
+}
+.App .col{
+  margin: 0;
+}
+.App html{
+  max-width: 100vw;
+}
+.App body{
+  max-width: 100vw;
+}
+.App{
+  font-family: 'Rubik', sans-serif;
 }

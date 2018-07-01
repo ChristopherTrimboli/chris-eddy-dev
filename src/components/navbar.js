@@ -16,6 +16,12 @@ class Navbar extends Component {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
+                <a className="nav-link" href="#">Freelancing</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">About Me</a>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link" href="#">Contact</a>
               </li>
               <li className="nav-item dropdown">
@@ -24,10 +30,9 @@ class Navbar extends Component {
                   Projects
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item" href="#">Exokit Homepage</a>
-                  <a className="dropdown-item" href="#">fresh-threads</a>
-                  <div className="dropdown-divider"/>
-                  <a className="dropdown-item" href="#">Bulldog Autoworks Ltd.</a>
+                  <a className="dropdown-item" href="https://exokit.webmr.io/">Exokit site</a>
+                  <a className="dropdown-item" href="https://www.fresh-threads.ca/fresh-threads/php/shop/shop.php">fresh-threads</a>
+                  <a className="dropdown-item" href="https://bulldogautoworks.ca/">Bulldog Autoworks Ltd.</a>
                 </div>
               </li>
             </ul>
