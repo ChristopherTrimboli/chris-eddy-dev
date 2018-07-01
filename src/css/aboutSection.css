@@ -1,8 +1,19 @@
 .aboutSection {
-  height: 80vh;
+  height: 95vh;
   width: auto;
   position: relative;
   color: black;
   background-color: whitesmoke;
   text-align: center;
+}
+.aboutSection p, ul, li{
+  padding-left: 50px;
+  padding-right: 20px;
+  text-align: left;
+}
+.aboutSection hr{
+  width: 50%;
+}
+.aboutSection .subHeading{
+  font-size: 2.5rem;
 }
