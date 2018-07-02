@@ -8,6 +8,7 @@ class AboutSection extends Component {
       <div className="aboutSection">
 
         <div className='row'>
+
           <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12'>
             <h3 className='subHeading display-4 pt-5'>About Me</h3>
             <hr/>
@@ -17,22 +18,50 @@ class AboutSection extends Component {
             <p className='lead'>Proudly born and raised in British Columbia. Im all about the Vancouver Island life and enjoy hiking the trails and coastlines.</p>
             <p className='lead'>My major long term goals include: Finishing my diploma at Camosun College. Getting a Suburu WRX STI. Getting back into snowboarding. And writing some damn good code.</p>
           </div>
-          <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12'>
+
+          <div className='skillsGrid col-lg-6 col-md-12 col-sm-12 col-xs-12'>
+
             <h3 className='subHeading display-4 pt-5'>My Skills</h3>
-            <ul>
-              <li>Web Development/Design</li>
-              <ul>
-                <li>React</li>
-                <li>Bootstrap v4</li>
-                <li>Node</li>
-                <li>Amazon Web Services</li>
-                <li>Javascript</li>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>PHP 7</li>
-                <li>Responsive Design</li>
-              </ul>
-            </ul>
+            <hr/>
+
+            <div className='row'>
+              <div className='col-lg-3 col-md-3 col-sm-6 col-xs-3 p-3'>
+                <i className="fab fa-react fa-4x"/>
+                <p>React</p>
+              </div>
+              <div className='col-lg-3 col-md-3 col-sm-6 col-xs-3 p-3'>
+                <i className="fab fa-java fa-4x"/>
+                <p>Java</p>
+              </div>
+              <div className='col-lg-3 col-md-3 col-sm-6 col-xs-3 p-3'>
+                <i className="fab fa-node fa-4x"/>
+                <p>Node</p>
+              </div>
+              <div className='col-lg-3 col-md-3 col-sm-6 col-xs-3 p-3'>
+                <i className="fab fa-aws fa-4x"/>
+                <p>AWS</p>
+              </div>
+            </div>
+
+            <div className='row pb-5'>
+              <div className='col-lg-3 col-md-3 col-sm-6 col-xs-3 p-3'>
+                <i className="fab fa-js-square fa-4x"/>
+                <p>Javascript</p>
+              </div>
+              <div className='col-lg-3 col-md-3 col-sm-6 col-xs-3 p-3'>
+                <i className="fab fa-html5 fa-4x"/>
+                <p>HTML5</p>
+              </div>
+              <div className='col-lg-3 col-md-3 col-sm-6 col-xs-3 p-3'>
+                <i className="fab fa-css3 fa-4x"/>
+                <p>CSS3</p>
+              </div>
+              <div className='col-lg-3 col-md-3 col-sm-6 col-xs-3 p-3'>
+                <i className="fab fa-php fa-4x"/>
+                <p>PHP 7</p>
+              </div>
+            </div>
+
           </div>
         </div>
 
