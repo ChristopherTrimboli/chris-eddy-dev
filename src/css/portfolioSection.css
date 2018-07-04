@@ -1,8 +1,20 @@
 .portfolioSection {
-  height: 50vh;
+  min-height: 80vh;
+  height: 100%;
   width: auto;
   position: relative;
   color: black;
-  background-color: #654373;
+  background-color: #ececec;
   text-align: center;
 }
+.portfolioSection .jumbotron1{
+  background-image: url("../images/freshThreads.PNG");
+}
+.portfolioSection .jumbotron2{
+  background-image: url("../images/bulldogAuto.PNG");
+}
+.portfolioSection .jumbotron3{
+  background-image: url("../images/exokitSite.PNG");
+}
+
+

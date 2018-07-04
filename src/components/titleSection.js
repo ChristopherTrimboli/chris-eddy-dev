@@ -30,7 +30,6 @@ class TitleSection extends Component {
         x++;
 
         if(swimDown === false){
-          console.log('swimming up');
           fish.style.transform = 'skew(15deg, 15deg)';
           y--;
           if(y === 0){
@@ -38,7 +37,6 @@ class TitleSection extends Component {
           }
         }
         else{
-          console.log('swimming up');
           y++;
           if(y === screenHeightLimit){
             swimDown = false;
