@@ -3,39 +3,61 @@ import '../css/portfolioSection.css';
 
 class PortfolioSection extends Component {
 
-  radioClick(button){
+  constructor(props) {
+    super(props);
+    this.state = {
+      siteShown: "exokit"
+    };
+    this.handleChange = this.handleChange.bind(this)
+  }
 
-    const radio = document.getElementById('radio');
-    const freshThreadsRadio = document.getElementById('freshThreadsOption');
+  detectSite(site){
+    console.log('Site is changing to:' + site);
+  }
+
+  handleChange(event) {
+
+    this.setState({
+      siteShown: event.target.value
+    });
+
+    this.detectSite(this.state.siteShown);
+
     const freshThreadsDiv = document.getElementById('freshThreadsCol');
-    const bullDogRadio = document.getElementById('bulldogAutoOption');
     const bulldogDiv = document.getElementById('bulldogCol');
-    const exokitRadio = document.getElementById('exokitOption');
     const exokitDiv = document.getElementById('exokitCol');
 
-    if(button === 'freshThreads'){
+    if(event.target.value === 'freshthreads'){
       freshThreadsDiv.hidden = false;
       bulldogDiv.hidden = true;
       exokitDiv.hidden = true;
     }
+    if(event.target.value === 'bulldog'){
+      freshThreadsDiv.hidden = true;
+      bulldogDiv.hidden = false;
+      exokitDiv.hidden = true;
+    }
+    if(event.target.value === 'exokit'){
+      freshThreadsDiv.hidden = true;
+      bulldogDiv.hidden = true;
+      exokitDiv.hidden = false;
+    }
+
   }
 
   render() {
+
     return (
       <div className="portfolioSection">
 
         <div className='row pt-4'>
           <div className='col-6'>
             <div id='radio' className="btn-group btn-group-toggle" data-toggle="buttons">
-              <label className="btn btn-secondary active">
-                <input type="radio" name="options" id="freshThreadsOption" autoComplete="off" onClick={this.radioClick('freshThreads')}/> Fresh-Threads
-              </label>
-              <label className="btn btn-secondary">
-                <input type="radio" name="options" id="bulldogAutoOption" autoComplete="off"/> Bulldog Autoworks
-              </label>
-              <label className="btn btn-secondary">
-                <input type="radio" name="options" id="exokitOption" autoComplete="off"/> Exokit Website
-              </label>
+                <input type="radio" name="options" id="freshThreadsOption" value='freshthreads' autoComplete="off" onClick={ this.handleChange }/> Fresh-Threads
+
+                <input type="radio" name="options" id="bulldogAutoOption" value='bulldog' autoComplete="off" onClick={ this.handleChange }/> Bulldog Autoworks
+
+                <input type="radio" name="options" id="exokitOption" value='exokit' autoComplete="off" onClick={ this.handleChange }/> Exokit Website
             </div>
           </div>
         </div>
