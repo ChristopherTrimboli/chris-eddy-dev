@@ -11,17 +11,11 @@ class PortfolioSection extends Component {
     this.handleChange = this.handleChange.bind(this)
   }
 
-  detectSite(site){
-    console.log('Site is changing to:' + site);
-  }
-
   handleChange(event) {
 
     this.setState({
       siteShown: event.target.value
     });
-
-    this.detectSite(this.state.siteShown);
 
     const freshThreadsDiv = document.getElementById('freshThreadsCol');
     const bulldogDiv = document.getElementById('bulldogCol');
