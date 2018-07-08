@@ -1,5 +1,5 @@
 .portfolioSection {
-  min-height: 80vh;
+  min-height: 70vh;
   height: 100%;
   width: auto;
   position: relative;
@@ -9,12 +9,26 @@
 }
 .portfolioSection .jumbotron1{
   background-image: url("../images/freshThreads.PNG");
+  background-size: cover;
+  height: 40vh;
 }
 .portfolioSection .jumbotron2{
   background-image: url("../images/bulldogAuto.PNG");
+  background-size: cover;
+  height: 40vh;
 }
 .portfolioSection .jumbotron3{
   background-image: url("../images/exokitSite.PNG");
+  background-size: cover;
+  height: 40vh;
 }
-
-
+.portfolioSection .subHeading{
+  font-size: 2.5rem;
+  text-align: left;
+}
+hr{
+  margin-right: 50%;
+}
+.portfolioSection .portfilioText{
+  text-align: left;
+}

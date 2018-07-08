@@ -39,56 +39,63 @@ class PortfolioSection extends Component {
 
   }
 
+  componentDidMount(){
+    const freshThreadsDiv = document.getElementById('freshThreadsCol');
+    const bulldogDiv = document.getElementById('bulldogCol');
+    const exokitDiv = document.getElementById('exokitCol');
+    freshThreadsDiv.hidden = false;
+    bulldogDiv.hidden = true;
+    exokitDiv.hidden = true;
+  }
+
   render() {
 
     return (
       <div className="portfolioSection">
+        <div className='row pt-5 pr-4 pl-4'>
 
-        <div className='row pt-4'>
-          <div className='col-6'>
-            <div id='radio' className="btn-group btn-group-toggle" data-toggle="buttons">
-                <input type="radio" name="options" id="freshThreadsOption" value='freshthreads' autoComplete="off" onClick={ this.handleChange }/> Fresh-Threads
-
-                <input type="radio" name="options" id="bulldogAutoOption" value='bulldog' autoComplete="off" onClick={ this.handleChange }/> Bulldog Autoworks
-
-                <input type="radio" name="options" id="exokitOption" value='exokit' autoComplete="off" onClick={ this.handleChange }/> Exokit Website
-            </div>
-          </div>
-        </div>
-
-        <div className='row'>
-
-          <div id='freshThreadsCol' className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
-            <div className="jumbotron jumbotron1">
-              <h1 className="display-4">Fresh-Threads</h1>
-              <hr className="my-4"/>
-                <p>A shopping-cart mock-up that I made... LAMP stack, PHP 7 and mySQL hosted on a AWS Lightsail server.</p>
-                <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-            </div>
-          </div>
-
-          <div id='bulldogCol' className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
-            <div className="jumbotron jumbotron2">
-              <h1 className="display-4">Hello, world!</h1>
-              <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
-                attention to featured content or information.</p>
-              <hr className="my-4"/>
-                <p>It uses utility classes for typography and spacing to space content out within the larger
-                  container.</p>
-                <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+          <div className='portfilioText col-lg-4 col-md-12 col-sm-12 col-xs-12'>
+            <h3 className='subHeading display-4'>Portfolio</h3>
+            <hr/>
+            <p className='lead'>
+              These websites are a collection of my top three favorite projects I have made to date.
+            </p>
+            <p className='lead'>
+              All of the sites featured here were made with no templates excluding Bootstrap usage, but still no templates.
+            </p>
+            <p className='lead'>
+              I have been having a blast making these websites and it just keeps getting better and better!.
+            </p>
+            <p className='lead'>
+              If you want to see what im currently working on, visit my Github and take a look at my other projects.
+            </p>
+            <h2 className='pt-4'>Navigate</h2>
+            <div className="btn-group" data-toggle="buttons">
+              <button type="button" className="btn btn-secondary" value='freshthreads' onClick={ this.handleChange }>Fresh-Threads</button>
+              <button type="button" className="btn btn-secondary" value='bulldog' onClick={ this.handleChange }>Bulldog Auto</button>
+              <button type="button" className="btn btn-secondary" value='exokit' onClick={ this.handleChange }>Exokit</button>
             </div>
           </div>
 
-          <div id='exokitCol' className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
-            <div className="jumbotron jumbotron3">
-              <h1 className="display-4">Hello, world!</h1>
-              <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
-                attention to featured content or information.</p>
-              <hr className="my-4"/>
-                <p>It uses utility classes for typography and spacing to space content out within the larger
-                  container.</p>
-                <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-            </div>
+          <div id='freshThreadsCol' className='col-lg-8 col-md-12 col-sm-12 col-xs-12'>
+            <div className="jumbotron jumbotron1"/>
+            <h3>Fresh-Threads</h3>
+            <p>A shopping-cart mock-up that I made... LAMP stack, PHP 7 and mySQL hosted on a AWS Lightsail server.</p>
+            <a className="btn btn-primary btn-lg" href="https://www.fresh-threads.ca/fresh-threads/php/shop/shop.php" role="button">Visit Site</a>
+          </div>
+
+          <div id='bulldogCol' className='col-lg-8 col-md-12 col-sm-12 col-xs-12'>
+            <div className="jumbotron jumbotron2"/>
+            <h3>Bulldog Autoworks</h3>
+            <p>This was the first site I ever made, it is built with Bootstrap, Jquery, JS and features some interesting google reviews code.</p>
+            <a className="btn btn-primary btn-lg" href="https://bulldogautoworks.ca/" role="button">Visit Site</a>
+          </div>
+
+          <div id='exokitCol' className='col-lg-8 col-md-12 col-sm-12 col-xs-12'>
+            <div className="jumbotron jumbotron3"/>
+            <h3>Exokit</h3>
+            <p>This is a landing page that is ongoing for the Exokit VR/AR browser. I am leading the site design on this project.</p>
+            <a className="btn btn-primary btn-lg" href="https://exokit.webmr.io/" role="button">Visit Site</a>
           </div>
 
         </div>

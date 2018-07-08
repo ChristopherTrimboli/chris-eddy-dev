@@ -7,14 +7,12 @@ class AboutSection extends Component {
     return (
       <div className="aboutSection">
 
-        <div className='row'>
+        <div className='row pr-4 pl-4'>
 
           <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12'>
             <h3 className='subHeading display-4 pt-5'>About Me</h3>
             <hr/>
             <p className='lead'>I first got into programming about 2 years ago, doing some basic Python stuff.  I had fun with learning programming and decided to take it further as a career. I am now studying in my 2nd year of Information and Computer Systems at Camosun College.</p>
-            <p className='lead'></p>
-            <p className='lead'></p>
             <p className='lead'>Proudly born and raised in British Columbia. Im all about the Vancouver Island life and enjoy hiking the trails and coastlines.</p>
             <p className='lead'>My major long term goals include: Finishing my diploma at Camosun College. Getting a Suburu WRX STI. Getting back into snowboarding. And writing some damn good code.</p>
           </div>
