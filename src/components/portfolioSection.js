@@ -74,7 +74,7 @@ class PortfolioSection extends Component {
           <div id='freshThreadsCol' className='col-lg-8 col-md-12 col-sm-12 col-xs-12'>
             <h4>Navigate</h4>
             <div className="btn-group pb-1" data-toggle="buttons">
-              <button type="button" className="btn btn-success active" value='freshthreads' onClick={ this.handleChange }>Fresh-Threads</button>
+              <button type="button" className="btn btn-success focus active" aria-pressed='true' value='freshthreads' onClick={ this.handleChange }>Fresh-Threads</button>
               <button type="button" className="btn btn-secondary" value='bulldog' onClick={ this.handleChange }>Bulldog Auto</button>
               <button type="button" className="btn btn-primary" value='exokit' onClick={ this.handleChange }>Exokit</button>
             </div>
@@ -88,9 +88,9 @@ class PortfolioSection extends Component {
           <div id='bulldogCol' className='col-lg-8 col-md-12 col-sm-12 col-xs-12'>
             <h4>Navigate</h4>
             <div className="btn-group pb-1" data-toggle="buttons">
-              <button type="button" className="btn btn-success" value='freshthreads' onClick={ this.handleChange }>Fresh-Threads</button>
-              <button type="button" className="btn btn-secondary active" value='bulldog' onClick={ this.handleChange }>Bulldog Auto</button>
-              <button type="button" className="btn btn-primary" value='exokit' onClick={ this.handleChange }>Exokit</button>
+              <button type="button" className="btn btn-success" value='freshthreads' aria-pressed='false' onClick={ this.handleChange }>Fresh-Threads</button>
+              <button type="button" className="btn btn-secondary focus active" aria-pressed='true' value='bulldog' onClick={ this.handleChange }>Bulldog Auto</button>
+              <button type="button" className="btn btn-primary" value='exokit' aria-pressed='false' onClick={ this.handleChange }>Exokit</button>
             </div>
             <div className="jumbotron jumbotron2"/>
             <h3>Bulldog Autoworks</h3>
@@ -102,9 +102,9 @@ class PortfolioSection extends Component {
           <div id='exokitCol' className='col-lg-8 col-md-12 col-sm-12 col-xs-12'>
             <h4>Navigate</h4>
             <div className="btn-group pb-1" data-toggle="buttons">
-              <button type="button" className="btn btn-success" value='freshthreads' onClick={ this.handleChange }>Fresh-Threads</button>
-              <button type="button" className="btn btn-secondary" value='bulldog' onClick={ this.handleChange }>Bulldog Auto</button>
-              <button type="button" className="btn btn-primary active" value='exokit' onClick={ this.handleChange }>Exokit</button>
+              <button type="button" className="btn btn-success" value='freshthreads' aria-pressed='false' onClick={ this.handleChange }>Fresh-Threads</button>
+              <button type="button" className="btn btn-secondary" value='bulldog' aria-pressed='false' onClick={ this.handleChange }>Bulldog Auto</button>
+              <button type="button" className="btn btn-primary focus active" value='exokit' aria-pressed='true' onClick={ this.handleChange }>Exokit</button>
             </div>
             <div className="jumbotron jumbotron3"/>
             <h3>Exokit</h3>
