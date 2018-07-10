@@ -60,13 +60,13 @@ class PortfolioSection extends Component {
               These websites are a collection of my top three favorite projects I have made to date.
             </p>
             <p className='lead'>
-              All of the sites featured here were made with no templates excluding Bootstrap usage, but still no templates.
+              All of the sites featured were made with no templates excluding some Bootstrap usage.
             </p>
             <p className='lead'>
-              I have been having a blast making these websites and it just keeps getting better and better!.
+              Some of these sites are mock-ups and others are in production, I think both types show my work well.
             </p>
             <p className='lead'>
-              If you want to see what im currently working on, visit my Github and take a look at my other projects.
+              If you want to see what im currently working on, visit my <a href='https://github.com/ChrisEddy'>Github</a> and take a look at my other projects.
             </p>
 
           </div>
@@ -81,7 +81,8 @@ class PortfolioSection extends Component {
             <div className="jumbotron jumbotron1"/>
             <h3>Fresh-Threads</h3>
             <p>A shopping-cart mock-up that I made... LAMP stack, PHP 7 and mySQL hosted on a AWS Lightsail server.</p>
-            <a className="btn btn-primary btn-lg" href="https://www.fresh-threads.ca/fresh-threads/php/shop/shop.php" role="button">Visit Site</a>
+            <a className="btn btn-primary btn-lg mr-2" href="https://www.fresh-threads.ca/fresh-threads/php/shop/shop.php" role="button">Visit Website</a>
+            <a className="btn btn-secondary btn-lg" href="https://github.com/ChrisEddy/fresh-threads" role="button">Github Repo</a>
           </div>
 
           <div id='bulldogCol' className='col-lg-8 col-md-12 col-sm-12 col-xs-12'>
@@ -94,7 +95,8 @@ class PortfolioSection extends Component {
             <div className="jumbotron jumbotron2"/>
             <h3>Bulldog Autoworks</h3>
             <p>This was the first site I ever made, it is built with Bootstrap, Jquery, JS and features some interesting google reviews code.</p>
-            <a className="btn btn-primary btn-lg" href="https://bulldogautoworks.ca/" role="button">Visit Site</a>
+            <a className="btn btn-primary btn-lg mr-2" href="https://bulldogautoworks.ca/" role="button">Visit Website</a>
+            <a className="btn btn-secondary btn-lg" href="https://github.com/ChrisEddy/bulldog-autowork" role="button">Github Repo</a>
           </div>
 
           <div id='exokitCol' className='col-lg-8 col-md-12 col-sm-12 col-xs-12'>
@@ -107,10 +109,12 @@ class PortfolioSection extends Component {
             <div className="jumbotron jumbotron3"/>
             <h3>Exokit</h3>
             <p>This is a landing page that is ongoing for the Exokit VR/AR browser. I am leading the site design on this project.</p>
-            <a className="btn btn-primary btn-lg" href="https://exokit.webmr.io/" role="button">Visit Site</a>
+            <a className="btn btn-primary btn-lg mr-2" href="https://exokit.webmr.io/" role="button">Visit Website</a>
+            <a className="btn btn-secondary btn-lg" href="https://github.com/ChrisEddy/exokit-site" role="button">Github Repo</a>
           </div>
 
         </div>
+
       </div>
     );
   }
