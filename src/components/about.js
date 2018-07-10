@@ -24,38 +24,38 @@ class AboutSection extends Component {
             <hr/>
 
             <div className='row'>
-              <div className='col-lg-3 col-md-3 col-sm-3 col-xs-3'>
+              <div className='iconCol col-lg-3 col-md-3 col-sm-6 col-xs-12'>
                 <i className="fab fa-react fa-4x"/>
                 <p>React</p>
               </div>
-              <div className='col-lg-3 col-md-3 col-sm-3 col-xs-3'>
+              <div className='iconCol col-lg-3 col-md-3 col-sm-6 col-xs-12'>
                 <i className="fab fa-java fa-4x"/>
                 <p>Java</p>
               </div>
-              <div className='col-lg-3 col-md-3 col-sm-3 col-xs-3'>
+              <div className='iconCol col-lg-3 col-md-3 col-sm-6 col-xs-12'>
                 <i className="fab fa-node fa-4x"/>
                 <p>Node</p>
               </div>
-              <div className='col-lg-3 col-md-3 col-sm-3 col-xs-3'>
+              <div className='iconCol col-lg-3 col-md-3 col-sm-6 col-xs-12'>
                 <i className="fab fa-aws fa-4x"/>
                 <p>AWS</p>
               </div>
             </div>
 
             <div className='row pb-5'>
-              <div className='col-lg-3 col-md-3 col-sm-6 col-xs-3 p-3'>
+              <div className='iconCol col-lg-3 col-md-3 col-sm-6 col-xs-12'>
                 <i className="fab fa-js-square fa-4x"/>
                 <p>Javascript</p>
               </div>
-              <div className='col-lg-3 col-md-3 col-sm-6 col-xs-3 p-3'>
+              <div className='iconCol col-lg-3 col-md-3 col-sm-6 col-xs-12'>
                 <i className="fab fa-html5 fa-4x"/>
                 <p>HTML5</p>
               </div>
-              <div className='col-lg-3 col-md-3 col-sm-6 col-xs-3 p-3'>
+              <div className='iconCol col-lg-3 col-md-3 col-sm-6 col-xs-12'>
                 <i className="fab fa-css3 fa-4x"/>
                 <p>CSS3</p>
               </div>
-              <div className='col-lg-3 col-md-3 col-sm-6 col-xs-3 p-3'>
+              <div className='iconCol col-lg-3 col-md-3 col-sm-6 col-xs-12'>
                 <i className="fab fa-php fa-4x"/>
                 <p>PHP 7</p>
               </div>

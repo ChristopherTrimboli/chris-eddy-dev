@@ -67,7 +67,7 @@ class TitleSection extends Component {
     return (
       <div id='titleSection' className="titleSection d-flex">
 
-          <img src={fish} id='fish'/>
+          <img src={fish} id='fish' alt='fish'/>
 
         <div className='centeredDiv justify-content-center align-self-center'>
 
