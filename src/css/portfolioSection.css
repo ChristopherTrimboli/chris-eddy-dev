@@ -39,7 +39,10 @@ hr{
 @media only screen and (max-width: 600px) {
   .portfolioSection .btn-group .btn{
     width: 6.8rem;
-    font-size: smaller;
+    font-size: small;
     overflow: hidden;
+  }
+  .portfolioSection .btn{
+    font-size: smaller;
   }
 }
