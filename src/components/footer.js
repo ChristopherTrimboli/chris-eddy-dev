@@ -8,7 +8,7 @@ class Footer extends Component {
       <div className="footerSection">
         <div className='row'>
           <div className='col-12'>
-            <p className='lead'>Chris Eddy</p>
+            <p className='copyright'>Chris Eddy <i className="far fa-copyright"/> 2018</p>
           </div>
         </div>
       </div>

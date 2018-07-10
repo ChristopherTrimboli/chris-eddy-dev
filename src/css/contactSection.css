@@ -3,6 +3,13 @@
   width: auto;
   position: relative;
   color: black;
-  background-color: #8b9fa7;
+  background-color: #ececec;
   text-align: center;
+}
+.contactSection hr{
+  margin-right: 50%;
+}
+.contactSection .subHeading{
+  font-size: 2.5rem;
+  text-align: left;
 }

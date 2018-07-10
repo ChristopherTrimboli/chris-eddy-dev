@@ -54,7 +54,7 @@ class PortfolioSection extends Component {
         <div className='row pt-5 pr-2 pl-2 pb-5'>
 
           <div className='portfilioText col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-4'>
-            <h3 className='subHeading display-4'>Portfolio</h3>
+            <h3 className='subHeading display-4'>My Portfolio</h3>
             <hr/>
             <p className='lead'>
               These websites are a collection of my top three favorite projects I have made to date.

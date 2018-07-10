@@ -6,9 +6,14 @@ class ContactSection extends Component {
   render() {
     return (
       <div className="contactSection">
-        <div className='row pt-4'>
-          <div className='col-12'>
-            <h1 className='display-4'>Contact Me</h1>
+        <div className='row pr-2 pl-2'>
+          <div className='col-6'>
+            <h3 className='subHeading display-4 pt-5'>Contact Me</h3>
+            <hr/>
+          </div>
+        </div>
+        <div className='row'>
+          <div className='col'>
           </div>
         </div>
       </div>
