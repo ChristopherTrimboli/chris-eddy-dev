@@ -43,6 +43,13 @@ class FreelanceSection extends Component {
           </div>
         </div>
 
+        <div className='row'>
+          <div className='col'>
+          </div>
+          <div className='col'>
+          </div>
+        </div>
+
       </div>
     );
   }
