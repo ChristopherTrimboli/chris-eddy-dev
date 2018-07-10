@@ -30,7 +30,7 @@ class TitleSection extends Component {
         x++;
 
         if(swimDown === false){
-          fish.style.transform = 'skew(15deg, 15deg)';
+          // fish.style.transform = 'skew(15deg, 15deg)';
           y--;
           if(y === 0){
             swimDown = true;
@@ -62,7 +62,6 @@ class TitleSection extends Component {
     }
   }
 
-
   render() {
     return (
       <div id='titleSection' className="titleSection d-flex">
@@ -80,12 +79,17 @@ class TitleSection extends Component {
             </div>
             <div className='col-12 d-flex justify-content-center align-self-center'>
               <p className='lead'>
-                Software Developer.
+                Software Developer
               </p>
             </div>
-
+            <div className='col-12 d-flex justify-content-center align-self-center'>
+              <p className='locationText'>
+                Victoria, B.C. | Camosun College
+              </p>
+            </div>
           </div>
         </div>
+          <i className="fas fa-angle-down"/>
       </div>
     );
   }

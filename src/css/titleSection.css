@@ -4,6 +4,7 @@
   overflow: hidden;
   position: relative;
   color: white;
+  text-align: center;
 
   background: linear-gradient(28deg, #131347, #1cb5e0);
   background-size: 400% 400%;
@@ -61,4 +62,15 @@
   height: 100px;
   width: auto;
   position: absolute;
+}
+.titleSection .locationText{
+  color: rgba(255, 255, 255, 0.58);
+}
+.titleSection .fa-angle-down{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  font-size: 4rem;
+  color: rgba(25, 25, 25, 0.25);
 }
