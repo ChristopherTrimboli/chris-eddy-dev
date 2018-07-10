@@ -12,7 +12,6 @@ class PortfolioSection extends Component {
   }
 
   handleChange(event) {
-
     this.setState({
       siteShown: event.target.value
     });
@@ -52,7 +51,7 @@ class PortfolioSection extends Component {
 
     return (
       <div className="portfolioSection">
-        <div className='row pt-5 pr-4 pl-4'>
+        <div className='row pt-5 pr-4 pl-4 pb-5'>
 
           <div className='portfilioText col-lg-4 col-md-12 col-sm-12 col-xs-12'>
             <h3 className='subHeading display-4'>Portfolio</h3>
@@ -69,15 +68,16 @@ class PortfolioSection extends Component {
             <p className='lead'>
               If you want to see what im currently working on, visit my Github and take a look at my other projects.
             </p>
-            <h2 className='pt-4'>Navigate</h2>
-            <div className="btn-group" data-toggle="buttons">
-              <button type="button" className="btn btn-secondary" value='freshthreads' onClick={ this.handleChange }>Fresh-Threads</button>
-              <button type="button" className="btn btn-secondary" value='bulldog' onClick={ this.handleChange }>Bulldog Auto</button>
-              <button type="button" className="btn btn-secondary" value='exokit' onClick={ this.handleChange }>Exokit</button>
-            </div>
+
           </div>
 
           <div id='freshThreadsCol' className='col-lg-8 col-md-12 col-sm-12 col-xs-12'>
+            <h4>Navigate</h4>
+            <div className="btn-group pb-1" data-toggle="buttons">
+              <button type="button" className="btn btn-success active" value='freshthreads' onClick={ this.handleChange }>Fresh-Threads</button>
+              <button type="button" className="btn btn-secondary" value='bulldog' onClick={ this.handleChange }>Bulldog Auto</button>
+              <button type="button" className="btn btn-primary" value='exokit' onClick={ this.handleChange }>Exokit</button>
+            </div>
             <div className="jumbotron jumbotron1"/>
             <h3>Fresh-Threads</h3>
             <p>A shopping-cart mock-up that I made... LAMP stack, PHP 7 and mySQL hosted on a AWS Lightsail server.</p>
@@ -85,6 +85,12 @@ class PortfolioSection extends Component {
           </div>
 
           <div id='bulldogCol' className='col-lg-8 col-md-12 col-sm-12 col-xs-12'>
+            <h4>Navigate</h4>
+            <div className="btn-group pb-1" data-toggle="buttons">
+              <button type="button" className="btn btn-success" value='freshthreads' onClick={ this.handleChange }>Fresh-Threads</button>
+              <button type="button" className="btn btn-secondary active" value='bulldog' onClick={ this.handleChange }>Bulldog Auto</button>
+              <button type="button" className="btn btn-primary" value='exokit' onClick={ this.handleChange }>Exokit</button>
+            </div>
             <div className="jumbotron jumbotron2"/>
             <h3>Bulldog Autoworks</h3>
             <p>This was the first site I ever made, it is built with Bootstrap, Jquery, JS and features some interesting google reviews code.</p>
@@ -92,6 +98,12 @@ class PortfolioSection extends Component {
           </div>
 
           <div id='exokitCol' className='col-lg-8 col-md-12 col-sm-12 col-xs-12'>
+            <h4>Navigate</h4>
+            <div className="btn-group pb-1" data-toggle="buttons">
+              <button type="button" className="btn btn-success" value='freshthreads' onClick={ this.handleChange }>Fresh-Threads</button>
+              <button type="button" className="btn btn-secondary" value='bulldog' onClick={ this.handleChange }>Bulldog Auto</button>
+              <button type="button" className="btn btn-primary active" value='exokit' onClick={ this.handleChange }>Exokit</button>
+            </div>
             <div className="jumbotron jumbotron3"/>
             <h3>Exokit</h3>
             <p>This is a landing page that is ongoing for the Exokit VR/AR browser. I am leading the site design on this project.</p>

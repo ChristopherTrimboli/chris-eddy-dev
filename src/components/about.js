@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../css/aboutSection.css';
 
-
 class AboutSection extends Component {
   render() {
     return (
@@ -10,6 +9,7 @@ class AboutSection extends Component {
         <div className='row pr-4 pl-4'>
 
           <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12'>
+
             <h3 className='subHeading display-4 pt-5'>About Me</h3>
             <hr/>
             <p className='lead'>I first got into programming about 2 years ago, doing some basic Python stuff.  I had fun with learning programming and decided to take it further as a career. I am now studying in my 2nd year of Information and Computer Systems at Camosun College.</p>
@@ -18,24 +18,25 @@ class AboutSection extends Component {
           </div>
 
           <div className='skillsGrid col-lg-6 col-md-12 col-sm-12 col-xs-12'>
+            <i className="mdi mdi-bell"/>
 
             <h3 className='subHeading display-4 pt-5'>My Skills</h3>
             <hr/>
 
             <div className='row'>
-              <div className='col-lg-3 col-md-3 col-sm-6 col-xs-3 p-3'>
+              <div className='col-lg-3 col-md-3 col-sm-3 col-xs-3'>
                 <i className="fab fa-react fa-4x"/>
                 <p>React</p>
               </div>
-              <div className='col-lg-3 col-md-3 col-sm-6 col-xs-3 p-3'>
+              <div className='col-lg-3 col-md-3 col-sm-3 col-xs-3'>
                 <i className="fab fa-java fa-4x"/>
                 <p>Java</p>
               </div>
-              <div className='col-lg-3 col-md-3 col-sm-6 col-xs-3 p-3'>
+              <div className='col-lg-3 col-md-3 col-sm-3 col-xs-3'>
                 <i className="fab fa-node fa-4x"/>
                 <p>Node</p>
               </div>
-              <div className='col-lg-3 col-md-3 col-sm-6 col-xs-3 p-3'>
+              <div className='col-lg-3 col-md-3 col-sm-3 col-xs-3'>
                 <i className="fab fa-aws fa-4x"/>
                 <p>AWS</p>
               </div>

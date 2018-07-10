@@ -32,3 +32,14 @@ hr{
 .portfolioSection .portfilioText{
   text-align: left;
 }
+.portfolioSection .btn-group .btn{
+  width: 10rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .portfolioSection .btn-group .btn{
+    width: 6.8rem;
+    font-size: smaller;
+    overflow: hidden;
+  }
+}
