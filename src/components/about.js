@@ -6,7 +6,7 @@ class AboutSection extends Component {
     return (
       <div className="aboutSection">
 
-        <div className='row pr-4 pl-4'>
+        <div className='row pr-2 pl-2'>
 
           <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12'>
 
