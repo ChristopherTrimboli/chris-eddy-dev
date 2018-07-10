@@ -7,34 +7,34 @@
   text-align: center;
 
   background: linear-gradient(28deg, #131347, #1cb5e0);
-  background-size: 400% 400%;
+  /*background-size: 400% 400%;*/
 
-  -webkit-animation: TitleGrad 15s ease infinite;
-  -moz-animation: TitleGrad 15s ease infinite;
-  -o-animation: TitleGrad 15s ease infinite;
-  animation: TitleGrad 15s ease infinite;
+  /*-webkit-animation: TitleGrad 15s ease infinite;*/
+  /*-moz-animation: TitleGrad 15s ease infinite;*/
+  /*-o-animation: TitleGrad 15s ease infinite;*/
+  /*animation: TitleGrad 15s ease infinite;*/
 }
 
-@-webkit-keyframes TitleGrad {
-  0%{background-position:69% 0%}
-  50%{background-position:32% 100%}
-  100%{background-position:69% 0%}
-}
-@-moz-keyframes TitleGrad {
-  0%{background-position:69% 0%}
-  50%{background-position:32% 100%}
-  100%{background-position:69% 0%}
-}
-@-o-keyframes TitleGrad {
-  0%{background-position:69% 0%}
-  50%{background-position:32% 100%}
-  100%{background-position:69% 0%}
-}
-@keyframes TitleGrad {
-  0%{background-position:69% 0%}
-  50%{background-position:32% 100%}
-  100%{background-position:69% 0%}
-}
+/*@-webkit-keyframes TitleGrad {*/
+  /*0%{background-position:69% 0%}*/
+  /*50%{background-position:32% 100%}*/
+  /*100%{background-position:69% 0%}*/
+/*}*/
+/*@-moz-keyframes TitleGrad {*/
+  /*0%{background-position:69% 0%}*/
+  /*50%{background-position:32% 100%}*/
+  /*100%{background-position:69% 0%}*/
+/*}*/
+/*@-o-keyframes TitleGrad {*/
+  /*0%{background-position:69% 0%}*/
+  /*50%{background-position:32% 100%}*/
+  /*100%{background-position:69% 0%}*/
+/*}*/
+/*@keyframes TitleGrad {*/
+  /*0%{background-position:69% 0%}*/
+  /*50%{background-position:32% 100%}*/
+  /*100%{background-position:69% 0%}*/
+/*}*/
 
 
 .titleSection .profileImage{
