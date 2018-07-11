@@ -68,9 +68,14 @@
 }
 .titleSection .fa-angle-down{
   position: absolute;
-  bottom: 0;
+  top: 90%;
   right: 0;
   left: 0;
   font-size: 4rem;
   color: rgba(25, 25, 25, 0.25);
+}
+@media only screen and (max-width: 600px) {
+  .titleSection .fa-angle-down{
+    top: 85%;
+  }
 }
