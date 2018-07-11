@@ -69,7 +69,7 @@ class TitleSection extends Component {
           {/*<img src={fish} id='fish' alt='fish'/>*/}
 
         <div className='centeredDiv justify-content-center align-self-center'>
-
+          <p>[ This site is under development.]</p>
           <div className='row'>
             <div className='col-12 d-flex justify-content-center align-self-center'>
               <img src={profileImage} className='profileImage hvr-bob' alt='profileImage'/>
