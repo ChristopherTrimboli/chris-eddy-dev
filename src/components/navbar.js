@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../css/navbar.css';
-import logo from '../images/me.png'
+import logo from '../images/logo.jpg'
 
 class Navbar extends Component {
 
@@ -41,6 +41,8 @@ class Navbar extends Component {
                 </div>
               </li>
             </ul>
+            <a className="float-right ml-2 mr-1" href='https://github.com/ChrisEddy'><i className="fab fa-github-square fa-2x"/></a>
+            <a className="float-right ml-2 mr-1" href='https://www.linkedin.com/in/chris-eddy-394784160/'><i className="fab fa-linkedin fa-2x"/></a>
           </div>
         </nav>
       </div>
