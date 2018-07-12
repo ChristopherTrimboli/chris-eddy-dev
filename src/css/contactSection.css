@@ -1,5 +1,5 @@
 .contactSection {
-  height: 50vh;
+  min-height: 50vh;
   width: auto;
   position: relative;
   color: black;
@@ -12,4 +12,38 @@
 .contactSection .subHeading{
   font-size: 2.5rem;
   text-align: left;
+}
+.contactSection a{
+  color: black;
+}
+.contactSection a:hover{
+  color: #004b83;
+  text-decoration: none;
+}
+.contactSection .img-thumbnail{
+  max-height: 150px;
+  padding: 0;
+  width: auto;
+  cursor: pointer;
+}
+.contactSection #modalImage{
+  max-height: 48vh;
+  max-width: 85vw;
+  image-orientation: flip;
+}
+.contactSection .modal-content{
+  width: auto;
+}
+@media only screen and (max-width: 600px) {
+  .contactSection hr{
+    margin-right: 30%;
+  }
+  .contactSection .col-sm-6{
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .contactSection .socialRow{
+    margin-bottom: 50px;
+  }
 }

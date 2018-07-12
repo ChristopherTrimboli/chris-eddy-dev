@@ -20,3 +20,8 @@
 .aboutSection .iconCol{
   width: 50%;
 }
+@media only screen and (max-width: 600px) {
+  .aboutSection hr{
+    margin-right: 30%;
+  }
+}

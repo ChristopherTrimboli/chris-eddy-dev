@@ -7,7 +7,7 @@
   text-align: center;
 }
 .freelanceSection hr{
-  margin-right: 60%;
+  margin-right: 75%;
 }
 .freelanceSection .subHeading{
   font-size: 2.5rem;
@@ -16,4 +16,9 @@
 .freelanceSection img{
   max-height: 180px;
   width: auto;
+}
+@media only screen and (max-width: 600px) {
+  .freelanceSection hr{
+    margin-right: 30%;
+  }
 }
