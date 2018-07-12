@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../css/navbar.css';
+import logo from '../images/me.png'
 
 class Navbar extends Component {
 
@@ -7,7 +8,11 @@ class Navbar extends Component {
     return (
       <div className="navbar">
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-          <a className="navbar-brand">Chris Eddy</a>
+          <a className="navbar-brand" href="#">
+            <img src={logo} width="30" height="30"
+                 className=" logo d-inline-block align-top" alt="logo"/>
+              Chris Eddy
+          </a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                   aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"/>

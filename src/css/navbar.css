@@ -16,3 +16,7 @@
 .navbar .nav-item{
   cursor: pointer;
 }
+.navbar .logo{
+  border-radius: 50%;
+  margin-right: 10px;
+}
