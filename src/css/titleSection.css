@@ -73,6 +73,7 @@
   left: 0;
   font-size: 4rem;
   color: rgba(25, 25, 25, 0.25);
+  cursor: pointer;
 }
 @media only screen and (max-width: 600px) {
   .titleSection .fa-angle-down{

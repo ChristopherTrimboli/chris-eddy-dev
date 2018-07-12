@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import '../css/navbar.css';
 
-
 class Navbar extends Component {
+
   render() {
     return (
       <div className="navbar">
@@ -16,17 +16,17 @@ class Navbar extends Component {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                <a className="nav-link">Freelancing</a>
+                <a className="nav-link" onClick={() => {this.jumpTo('freelancing')}}>Freelancing</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link">About Me</a>
+                <a className="nav-link" onClick={() => {this.jumpTo('aboutMe')}}>About Me</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link">Contact</a>
+                <a className="nav-link" onClick={() => {this.jumpTo('contact')}}>Contact</a>
               </li>
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" id="navbarDropdown" role="button"
-                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onClick={() => {this.jumpTo('portfolio')}}>
                   Portfolio
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -40,6 +40,12 @@ class Navbar extends Component {
         </nav>
       </div>
     );
+  }
+  jumpTo(section){
+    let div = document.getElementById(section);
+    let distanceToTop = div.getBoundingClientRect().top;
+    window.scrollBy(0,(distanceToTop - 50));
+    console.log(distanceToTop);
   }
 }
 

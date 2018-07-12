@@ -62,6 +62,13 @@ class TitleSection extends Component {
   //   }
   // }
 
+  jumpTo(section){
+    let div = document.getElementById(section);
+    let distanceToTop = div.getBoundingClientRect().top;
+    window.scrollBy(0,(distanceToTop - 50));
+    console.log(distanceToTop);
+  }
+
   render() {
     return (
       <div id='titleSection' className="titleSection d-flex">
@@ -89,7 +96,7 @@ class TitleSection extends Component {
             </div>
           </div>
         </div>
-          <i className="fas fa-angle-down"/>
+          <i className="fas fa-angle-down" onClick={() => {this.jumpTo('aboutMe')}}/>
       </div>
     );
   }

@@ -9,7 +9,7 @@ import codeIcon from '../images/codeIcon.svg';
 class FreelanceSection extends Component {
   render() {
     return (
-      <div className="freelanceSection">
+      <div id='freelancing' className="freelanceSection">
 
         <div className='row pr-2 pl-2'>
           <div className='col-12'>

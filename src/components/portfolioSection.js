@@ -50,7 +50,7 @@ class PortfolioSection extends Component {
   render() {
 
     return (
-      <div className="portfolioSection">
+      <div id='portfolio' className="portfolioSection">
         <div className='row pt-5 pr-2 pl-2 pb-5'>
 
           <div className='portfilioText col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-4'>

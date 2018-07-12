@@ -13,3 +13,6 @@
 .navbar a:not([href]):not([tabindex]){
   color: #fff;
 }
+.navbar .nav-item{
+  cursor: pointer;
+}
