@@ -70,30 +70,38 @@ class ContactSection extends Component {
             <hr/>
             <div className='row'>
               <div className='col-lg-3 col-md-3 col-sm-6 col-xs-6 mt-4'>
-                <img src={lake} alt="Lake" onClick={() => {this.changeImage(lake, 'Thetis Lake')}} className="img-thumbnail rounded hvr-grow" data-toggle="modal" data-target="#galleryModal"/>
+                <img src={lake} alt="Lake" onClick={() => {this.changeImage(lake, 'Thetis Lake')}}
+                     className="img-thumbnail rounded hvr-grow" data-toggle="modal" data-target="#galleryModal"/>
               </div>
               <div className='col-lg-3 col-md-3 col-sm-6 col-xs-6 mt-4'>
-                <img src={view} alt="Trail" onClick={() => {this.changeImage(view, 'A Nice View')}} className="img-thumbnail rounded hvr-grow" data-toggle="modal" data-target="#galleryModal"/>
+                <img src={view} alt="Trail" onClick={() => {this.changeImage(view, 'A Nice View')}}
+                     className="img-thumbnail rounded hvr-grow" data-toggle="modal" data-target="#galleryModal"/>
               </div>
               <div className='col-lg-3 col-md-3 col-sm-6 col-xs-6 mt-4'>
-                <img src={forest} alt="Forest" onClick={() => {this.changeImage(forest, 'Pretty Forest')}} className="img-thumbnail rounded hvr-grow" data-toggle="modal" data-target="#galleryModal"/>
+                <img src={forest} alt="Forest" onClick={() => {this.changeImage(forest, 'Pretty Forest')}}
+                     className="img-thumbnail rounded hvr-grow" data-toggle="modal" data-target="#galleryModal"/>
               </div>
               <div className='col-lg-3 col-md-3 col-sm-6 col-xs-6 mt-4'>
-                <img src={trail} alt="Trail" onClick={() => {this.changeImage(trail, 'Hiking the Trail')}} className="img-thumbnail rounded hvr-grow" data-toggle="modal" data-target="#galleryModal"/>
+                <img src={trail} alt="Trail" onClick={() => {this.changeImage(trail, 'Hiking the Trail')}}
+                     className="img-thumbnail rounded hvr-grow" data-toggle="modal" data-target="#galleryModal"/>
               </div>
             </div>
             <div className='row'>
               <div className='col-lg-3 col-md-3 col-sm-6 col-xs-6 mt-4'>
-                <img src={champ} alt="Champ" onClick={() => {this.changeImage(champ, 'Ascended')}} className="img-thumbnail rounded hvr-grow" data-toggle="modal" data-target="#galleryModal"/>
+                <img src={champ} alt="Champ" onClick={() => {this.changeImage(champ, 'Ascended')}}
+                     className="img-thumbnail rounded hvr-grow" data-toggle="modal" data-target="#galleryModal"/>
               </div>
               <div className='col-lg-3 col-md-3 col-sm-6 col-xs-6 mt-4'>
-                <img src={t1} alt="..." onClick={() => {this.changeImage(t1, 'Alpha AF')}} className="img-thumbnail rounded hvr-grow" data-toggle="modal" data-target="#galleryModal"/>
+                <img src={t1} alt="Tyler1" onClick={() => {this.changeImage(t1, 'Alpha AF')}}
+                     className="img-thumbnail rounded hvr-grow" data-toggle="modal" data-target="#galleryModal"/>
               </div>
               <div className='col-lg-3 col-md-3 col-sm-6 col-xs-6 mt-4'>
-                <img src={goose} alt="..." onClick={() => {this.changeImage(goose, 'Galloping Goose')}} className="img-thumbnail rounded hvr-grow" data-toggle="modal" data-target="#galleryModal"/>
+                <img src={goose} alt="Goose Trail" onClick={() => {this.changeImage(goose, 'Galloping Goose')}}
+                     className="img-thumbnail rounded hvr-grow" data-toggle="modal" data-target="#galleryModal"/>
               </div>
               <div className='col-lg-3 col-md-3 col-sm-6 col-xs-6 mt-4'>
-                <img src={couple} alt="..." onClick={() => {this.changeImage(couple, 'Me and Emma <3')}} className="img-thumbnail rounded hvr-grow" data-toggle="modal" data-target="#galleryModal"/>
+                <img src={couple} alt="Qt couple" onClick={() => {this.changeImage(couple, 'Me and Emma <3')}}
+                     className="img-thumbnail rounded hvr-grow" data-toggle="modal" data-target="#galleryModal"/>
               </div>
             </div>
           </div>
