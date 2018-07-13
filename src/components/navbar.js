@@ -4,6 +4,12 @@ import logo from '../images/logo.jpg'
 
 class Navbar extends Component {
 
+  jumpTo(section){
+    let div = document.getElementById(section);
+    let distanceToTop = div.getBoundingClientRect().top;
+    window.scrollBy(0,(distanceToTop - 50));
+  }
+
   render() {
     return (
       <div className="navbar">
@@ -47,12 +53,6 @@ class Navbar extends Component {
         </nav>
       </div>
     );
-  }
-  jumpTo(section){
-    let div = document.getElementById(section);
-    let distanceToTop = div.getBoundingClientRect().top;
-    window.scrollBy(0,(distanceToTop - 50));
-    console.log(distanceToTop);
   }
 }
 

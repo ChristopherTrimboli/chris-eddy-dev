@@ -25,7 +25,6 @@ class ContactSection extends Component {
       modalImage: image,
       modalTitle: title
     });
-    console.log(image);
   }
 
   render() {
@@ -85,10 +84,10 @@ class ContactSection extends Component {
             </div>
             <div className='row'>
               <div className='col-lg-3 col-md-3 col-sm-6 col-xs-6 mt-4'>
-                <img src={champ} alt="Champ" onClick={() => {this.changeImage(champ, 'Me being a Champion')}} className="img-thumbnail rounded hvr-grow" data-toggle="modal" data-target="#galleryModal"/>
+                <img src={champ} alt="Champ" onClick={() => {this.changeImage(champ, 'Ascended')}} className="img-thumbnail rounded hvr-grow" data-toggle="modal" data-target="#galleryModal"/>
               </div>
               <div className='col-lg-3 col-md-3 col-sm-6 col-xs-6 mt-4'>
-                <img src={t1} alt="..." onClick={() => {this.changeImage(t1, 'Biggest muscles Ever')}} className="img-thumbnail rounded hvr-grow" data-toggle="modal" data-target="#galleryModal"/>
+                <img src={t1} alt="..." onClick={() => {this.changeImage(t1, 'Alpha AF')}} className="img-thumbnail rounded hvr-grow" data-toggle="modal" data-target="#galleryModal"/>
               </div>
               <div className='col-lg-3 col-md-3 col-sm-6 col-xs-6 mt-4'>
                 <img src={goose} alt="..." onClick={() => {this.changeImage(goose, 'Galloping Goose')}} className="img-thumbnail rounded hvr-grow" data-toggle="modal" data-target="#galleryModal"/>
