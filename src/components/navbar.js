@@ -8,7 +8,7 @@ class Navbar extends Component {
     return (
       <div className="navbar">
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand">
             <img src={logo} width="30" height="30"
                  className=" logo d-inline-block align-top" alt="logo"/>
               Chris Eddy

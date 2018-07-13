@@ -4,7 +4,6 @@ import Navbar from "./components/navbar";
 import TitleSection from "./components/titleSection";
 import AboutSection from "./components/about";
 import './css/App.css';
-import Footer from "./components/footer";
 import ContactSection from "./components/contactSection";
 import PortfolioSection from "./components/portfolioSection";
 import FreelanceSection from "./components/freelanceSection";
@@ -20,7 +19,7 @@ class App extends Component {
         <PortfolioSection/>
         <FreelanceSection/>
         <ContactSection/>
-        <Footer/>
+
       </div>
     );
   }

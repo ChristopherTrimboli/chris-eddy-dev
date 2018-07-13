@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../css/titleSection.css';
 import profileImage from '../images/me.png';
-import fish from '../images/fish.png';
 import '../css/Hover-master/css/hover.css';
 
 class TitleSection extends Component {

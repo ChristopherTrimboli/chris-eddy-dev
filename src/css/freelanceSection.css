@@ -17,6 +17,9 @@
   max-height: 180px;
   width: auto;
 }
+.freelanceSection .infoText{
+
+}
 @media only screen and (max-width: 600px) {
   .freelanceSection hr{
     margin-right: 30%;

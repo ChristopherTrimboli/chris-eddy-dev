@@ -13,8 +13,8 @@ class AboutSection extends Component {
             <h3 className='subHeading display-4 pt-5'>About Me</h3>
             <hr/>
             <p className='lead'>I first got into programming about 2 years ago, doing some basic Python stuff.  I had fun with learning programming and decided to take it further as a career. I am now studying in my 2nd year of Information and Computer Systems at Camosun College.</p>
-            <p className='lead'>Proudly born and raised in British Columbia. Im all about the Vancouver Island life and enjoy hiking the trails and coastlines.</p>
-            <p className='lead'>My major long term goals include: Finishing my diploma at Camosun College. Getting a Suburu WRX STI. Getting back into snowboarding. And writing some damn good code.</p>
+            <p className='lead'>I am proudly born and raised in British Columbia. Im all about the Vancouver Island life and enjoy hiking the trails and coastlines.</p>
+            <p className='lead'>My major long term goals include: finishing my diploma at Camosun College, buying a Suburu WRX STI, getting back into snowboarding, and continuing to write some damn good code.</p>
           </div>
 
           <div className='skillsGrid col-lg-6 col-md-12 col-sm-12 col-xs-12'>
@@ -58,6 +58,18 @@ class AboutSection extends Component {
               <div className='iconCol col-lg-3 col-md-3 col-sm-6 col-xs-12'>
                 <i className="fab fa-php fa-4x"/>
                 <p>PHP 7</p>
+              </div>
+            </div>
+
+            <div className='row pr-4 pl-4 pb-5'>
+              <div className='col-12'>
+                <span className="badge badge-pill badge-primary m-2">Fast Learner</span>
+                <span className="badge badge-pill badge-secondary m-2">Full-Stack</span>
+                <span className="badge badge-pill badge-success m-2">People Skills</span>
+                <span className="badge badge-pill badge-dark m-2">Bootstrap</span>
+                <span className="badge badge-pill badge-warning m-2">Databases</span>
+                <span className="badge badge-pill badge-info m-2">Best-Practices</span>
+                <span className="badge badge-pill badge-danger m-2">Hard Worker</span>
               </div>
             </div>
 
