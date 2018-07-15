@@ -1,42 +1,12 @@
-.titleSection{
+.titleSection {
   height: 100vh;
   width: auto;
   overflow: hidden;
   position: relative;
   color: white;
   text-align: center;
-
   background: linear-gradient(28deg, #131347, #1cb5e0);
-  /*background-size: 400% 400%;*/
-
-  /*-webkit-animation: TitleGrad 15s ease infinite;*/
-  /*-moz-animation: TitleGrad 15s ease infinite;*/
-  /*-o-animation: TitleGrad 15s ease infinite;*/
-  /*animation: TitleGrad 15s ease infinite;*/
 }
-
-/*@-webkit-keyframes TitleGrad {*/
-  /*0%{background-position:69% 0%}*/
-  /*50%{background-position:32% 100%}*/
-  /*100%{background-position:69% 0%}*/
-/*}*/
-/*@-moz-keyframes TitleGrad {*/
-  /*0%{background-position:69% 0%}*/
-  /*50%{background-position:32% 100%}*/
-  /*100%{background-position:69% 0%}*/
-/*}*/
-/*@-o-keyframes TitleGrad {*/
-  /*0%{background-position:69% 0%}*/
-  /*50%{background-position:32% 100%}*/
-  /*100%{background-position:69% 0%}*/
-/*}*/
-/*@keyframes TitleGrad {*/
-  /*0%{background-position:69% 0%}*/
-  /*50%{background-position:32% 100%}*/
-  /*100%{background-position:69% 0%}*/
-/*}*/
-
-
 .titleSection .profileImage{
   border-radius: 50%;
   max-height: 200px;
@@ -51,18 +21,6 @@
 .titleSection i:hover{
   color: black;
 }
-.titleSection #fishBowl {
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-  overflow: hidden;
-}
-.titleSection #fish {
-  display: block;
-  height: 100px;
-  width: auto;
-  position: absolute;
-}
 .titleSection .locationText{
   color: rgba(255, 255, 255, 0.58);
 }
@@ -72,8 +30,11 @@
   right: 0;
   left: 0;
   font-size: 4rem;
-  color: rgba(25, 25, 25, 0.25);
+  color: rgba(25, 25, 25, 0.9);
   cursor: pointer;
+}
+.titleSection .fa-angle-down:hover{
+  color: rgba(255, 255, 255, 0.9);
 }
 @media only screen and (max-width: 600px) {
   .titleSection .fa-angle-down{

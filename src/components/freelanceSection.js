@@ -5,7 +5,6 @@ import networkIcon from '../images/networkIcon.svg';
 import responsiveIcon from '../images/responsiveIcon.svg';
 import codeIcon from '../images/codeIcon.svg';
 
-
 class FreelanceSection extends Component {
   render() {
     return (
@@ -53,8 +52,6 @@ class FreelanceSection extends Component {
             <p className='lead'>Fixes and Tweaks</p>
           </div>
         </div>
-
-
 
       </div>
     );

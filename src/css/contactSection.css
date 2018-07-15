@@ -34,6 +34,9 @@
 .contactSection .modal-content{
   width: auto;
 }
+.contactSection p{
+  font-family: 'Open Sans', sans-serif;
+}
 @media only screen and (max-width: 600px) {
   .contactSection hr{
     margin-right: 30%;

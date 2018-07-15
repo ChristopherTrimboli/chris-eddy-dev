@@ -1,5 +1,5 @@
 .aboutSection {
-  min-height: 60vh;
+  min-height: 55vh;
   height: 100%;
   width: auto;
   position: relative;
@@ -19,6 +19,12 @@
 }
 .aboutSection .iconCol{
   width: 50%;
+}
+.aboutSection .badge{
+  min-width: 80px;
+}
+.aboutSection p{
+  font-family: 'Open Sans', sans-serif;
 }
 @media only screen and (max-width: 600px) {
   .aboutSection hr{

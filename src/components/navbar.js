@@ -7,7 +7,11 @@ class Navbar extends Component {
   jumpTo(section){
     let div = document.getElementById(section);
     let distanceToTop = div.getBoundingClientRect().top;
-    window.scrollBy(0,(distanceToTop - 50));
+    window.scrollBy({
+      top: distanceToTop - 50, // could be negative value
+      left: 0,
+      behavior: 'smooth'
+    });
   }
 
   render() {
@@ -40,7 +44,7 @@ class Navbar extends Component {
                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onClick={() => {this.jumpTo('portfolio')}}>
                   Portfolio
                 </a>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div className="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
                   <a className="dropdown-item" href="https://exokit.webmr.io/">Exokit site</a>
                   <a className="dropdown-item" href="https://www.fresh-threads.ca/fresh-threads/php/shop/shop.php">fresh-threads</a>
                   <a className="dropdown-item" href="https://bulldogautoworks.ca/">Bulldog Autoworks Ltd.</a>

@@ -30,7 +30,15 @@
   float: right;
   text-align: right;
 }
-
+.navbar .dropdown-menu a{
+  color: white;
+}
+.navbar .dropdown-menu a:hover{
+  background-color: #6c7279;
+}
+.navbar .dropdown-menu{
+  border-color: rgba(255, 255, 255, 0.53);
+}
 
 @media only screen and (max-width: 991px) {
   .navbar .navSocial{

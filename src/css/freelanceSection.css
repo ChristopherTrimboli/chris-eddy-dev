@@ -17,8 +17,11 @@
   max-height: 180px;
   width: auto;
 }
-.freelanceSection .infoText{
-
+.freelanceSection p{
+  font-family: 'Open Sans', sans-serif;
+}
+.freelanceSection .lead{
+  font-family: 'Rubik', sans-serif;
 }
 @media only screen and (max-width: 600px) {
   .freelanceSection hr{
