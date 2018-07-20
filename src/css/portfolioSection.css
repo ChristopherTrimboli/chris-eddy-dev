@@ -8,17 +8,17 @@
   text-align: center;
 }
 .portfolioSection .jumbotron1{
-  background-image: url("../images/freshThreads.PNG");
+  background-image: url("../images/fresh-threads.PNG");
   background-size: cover;
   height: 40vh;
 }
 .portfolioSection .jumbotron2{
-  background-image: url("../images/bulldogAuto.PNG");
+  background-image: url("../images/docs.PNG");
   background-size: cover;
   height: 40vh;
 }
 .portfolioSection .jumbotron3{
-  background-image: url("../images/exokitSite.PNG");
+  background-image: url("../images/exokit.PNG");
   background-size: cover;
   height: 40vh;
 }
@@ -52,7 +52,7 @@ hr{
     background-image: url("../images/freshThreads-smallv2.PNG");
   }
   .portfolioSection .jumbotron2{
-    background-image: url("../images/bulldog-small.PNG");
+    background-image: url("../images/docspic.PNG");
   }
   .portfolioSection .jumbotron3{
     background-image: url("../images/exokit-small.PNG");
