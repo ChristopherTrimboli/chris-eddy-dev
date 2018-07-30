@@ -6,7 +6,7 @@ class PortfolioSection extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      siteShown: "exokit"
+      siteShown: "docs"
     };
     this.handleChange = this.handleChange.bind(this)
   }
@@ -18,22 +18,23 @@ class PortfolioSection extends Component {
 
     const freshThreadsDiv = document.getElementById('freshThreadsCol');
     const docsDiv = document.getElementById('docsCol');
-    const exokitDiv = document.getElementById('exokitCol');
+    const bulldogDiv = document.getElementById('bulldogCol');
 
     if(event.target.value === 'freshthreads'){
       freshThreadsDiv.hidden = false;
       docsDiv.hidden = true;
-      exokitDiv.hidden = true;
+      bulldogDiv.hidden = true;
     }
     if(event.target.value === 'docs'){
       freshThreadsDiv.hidden = true;
       docsDiv.hidden = false;
-      exokitDiv.hidden = true;
+      bulldogDiv.hidden = true;
     }
-    if(event.target.value === 'exokit'){
+    if(event.target.value === 'bulldog'){
       freshThreadsDiv.hidden = true;
       docsDiv.hidden = true;
-      exokitDiv.hidden = false;
+      bulldogDiv.hidden = false;
+
     }
 
   }
@@ -41,10 +42,10 @@ class PortfolioSection extends Component {
   componentDidMount(){
     const freshThreadsDiv = document.getElementById('freshThreadsCol');
     const docsDiv = document.getElementById('docsCol');
-    const exokitDiv = document.getElementById('exokitCol');
+    const bulldogDiv = document.getElementById('bulldogCol');
     freshThreadsDiv.hidden = false;
     docsDiv.hidden = true;
-    exokitDiv.hidden = true;
+    bulldogDiv.hidden = true;
   }
 
   render() {
@@ -76,7 +77,7 @@ class PortfolioSection extends Component {
             <div className="btn-group pb-1" data-toggle="buttons">
               <button type="button" className="btn btn-success focus active" aria-pressed='true' value='freshthreads' onClick={ this.handleChange }>Fresh-Threads</button>
               <button type="button" className="btn btn-secondary" value='docs' onClick={ this.handleChange }>Exokit Docs</button>
-              <button type="button" className="btn btn-primary" value='exokit' onClick={ this.handleChange }>Exokit</button>
+              <button type="button" className="btn btn-primary" value='bulldog' onClick={ this.handleChange }>Bulldog Auto</button>
             </div>
             <div className="jumbotron jumbotron1"/>
             <h3>Fresh-Threads</h3>
@@ -90,7 +91,7 @@ class PortfolioSection extends Component {
             <div className="btn-group pb-1" data-toggle="buttons">
               <button type="button" className="btn btn-success" value='freshthreads' aria-pressed='false' onClick={ this.handleChange }>Fresh-Threads</button>
               <button type="button" className="btn btn-secondary focus active" aria-pressed='true' value='docs' onClick={ this.handleChange }>Exokit Docs</button>
-              <button type="button" className="btn btn-primary" value='exokit' aria-pressed='false' onClick={ this.handleChange }>Exokit</button>
+              <button type="button" className="btn btn-primary" value='bulldog' aria-pressed='false' onClick={ this.handleChange }>Bulldog Auto</button>
             </div>
             <div className="jumbotron jumbotron2"/>
             <h3>Exokit Docs</h3>
@@ -99,18 +100,18 @@ class PortfolioSection extends Component {
             <a className="btn btn-secondary btn-lg" href="https://github.com/webmixedreality/webmr-docs" role="button">Github Repo</a>
           </div>
 
-          <div id='exokitCol' className='col-lg-8 col-md-12 col-sm-12 col-xs-12'>
+          <div id='bulldogCol' className='col-lg-8 col-md-12 col-sm-12 col-xs-12'>
             <h4>Navigate</h4>
             <div className="btn-group pb-1" data-toggle="buttons">
               <button type="button" className="btn btn-success" value='freshthreads' aria-pressed='false' onClick={ this.handleChange }>Fresh-Threads</button>
               <button type="button" className="btn btn-secondary" value='docs' aria-pressed='false' onClick={ this.handleChange }>Exokit Docs</button>
-              <button type="button" className="btn btn-primary focus active" value='exokit' aria-pressed='true' onClick={ this.handleChange }>Exokit</button>
+              <button type="button" className="btn btn-primary focus active" value='bulldog' aria-pressed='true' onClick={ this.handleChange }>Bulldog Auto</button>
             </div>
             <div className="jumbotron jumbotron3"/>
-            <h3>Exokit</h3>
-            <p className='text-left'>This is a landing page that is ongoing for the Exokit VR/AR browser. I am leading the site design on this project. This site is built with React, Mailchimp and Redux.</p>
-            <a className="btn btn-primary btn-lg mr-2" href="https://exokit.webmr.io/" role="button">Visit Website</a>
-            <a className="btn btn-secondary btn-lg" href="https://github.com/ChrisEddy/exokit-site" role="button">Github Repo</a>
+            <h3>Bulldog Autoworks Ltd.</h3>
+            <p className='text-left'>This was the first site I ever made, it is built with Bootstrap, Jquery, JS and features some interesting google reviews code.</p>
+            <a className="btn btn-primary btn-lg mr-2" href="https://bulldogautoworks.ca/" role="button">Visit Website</a>
+            <a className="btn btn-secondary btn-lg" href="https://github.com/ChrisEddy/bulldog-autowork" role="button">Github Repo</a>
           </div>
 
         </div>

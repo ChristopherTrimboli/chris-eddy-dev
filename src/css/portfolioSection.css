@@ -18,7 +18,7 @@
   height: 40vh;
 }
 .portfolioSection .jumbotron3{
-  background-image: url("../images/exokit.PNG");
+  background-image: url("../images/bulldogAuto.PNG");
   background-size: cover;
   height: 40vh;
 }
@@ -55,6 +55,6 @@ hr{
     background-image: url("../images/docspic.PNG");
   }
   .portfolioSection .jumbotron3{
-    background-image: url("../images/exokit-small.PNG");
+    background-image: url("../images/bulldog-small.PNG");
   }
 }
