@@ -16,22 +16,22 @@ class PortfolioSection extends Component {
       siteShown: event.target.value
     });
 
-    const freshThreadsDiv = document.getElementById('freshThreadsCol');
+    const solarSystemDiv = document.getElementById('solarSystemCol');
     const docsDiv = document.getElementById('docsCol');
     const bulldogDiv = document.getElementById('bulldogCol');
 
-    if(event.target.value === 'freshthreads'){
-      freshThreadsDiv.hidden = false;
+    if(event.target.value === 'solarsystem'){
+      solarSystemDiv.hidden = false;
       docsDiv.hidden = true;
       bulldogDiv.hidden = true;
     }
     if(event.target.value === 'docs'){
-      freshThreadsDiv.hidden = true;
+      solarSystemDiv.hidden = true;
       docsDiv.hidden = false;
       bulldogDiv.hidden = true;
     }
     if(event.target.value === 'bulldog'){
-      freshThreadsDiv.hidden = true;
+      solarSystemDiv.hidden = true;
       docsDiv.hidden = true;
       bulldogDiv.hidden = false;
 
@@ -40,11 +40,11 @@ class PortfolioSection extends Component {
   }
 
   componentDidMount(){
-    const freshThreadsDiv = document.getElementById('freshThreadsCol');
+    const solarSystemDiv = document.getElementById('solarSystemCol');
     const docsDiv = document.getElementById('docsCol');
     const bulldogDiv = document.getElementById('bulldogCol');
-    freshThreadsDiv.hidden = false;
-    docsDiv.hidden = true;
+    solarSystemDiv.hidden = true;
+    docsDiv.hidden = false;
     bulldogDiv.hidden = true;
   }
 
@@ -72,24 +72,24 @@ class PortfolioSection extends Component {
 
           </div>
 
-          <div id='freshThreadsCol' className='col-lg-8 col-md-12 col-sm-12 col-xs-12'>
+          <div id='solarSystemCol' className='col-lg-8 col-md-12 col-sm-12 col-xs-12'>
             <h4>Navigate</h4>
             <div className="btn-group pb-1" data-toggle="buttons">
-              <button type="button" className="btn btn-success focus active" aria-pressed='true' value='freshthreads' onClick={ this.handleChange }>Fresh-Threads</button>
+              <button type="button" className="btn btn-success focus active" aria-pressed='true' value='solarsystem' onClick={ this.handleChange }>Solar System</button>
               <button type="button" className="btn btn-secondary" value='docs' onClick={ this.handleChange }>Exokit Docs</button>
               <button type="button" className="btn btn-primary" value='bulldog' onClick={ this.handleChange }>Bulldog Auto</button>
             </div>
-            <div className="jumbotron jumbotron1"/>
-            <h3>Fresh-Threads</h3>
-            <p className='text-left'>This site is a shopping-cart mock-up that I made in school. It is a LAMP stack, built with Bootstrap and hosted on a AWS Lightsail server.</p>
-            <a className="btn btn-primary btn-lg mr-2" href="https://www.fresh-threads.ca/fresh-threads/php/shop/shop.php" role="button">Visit Website</a>
-            <a className="btn btn-secondary btn-lg" href="https://github.com/ChrisEddy/fresh-threads" role="button">Github Repo</a>
+            <iframe width="100%" height="400" allowFullScreen="yes" scrolling="no" src="https://chriseddy.github.io/threejs-webvr-solarsystem/"/>
+            <h3>Three.js + WebVR Solar System</h3>
+            <p className='text-left'>This is a fun project im making that utilizes three.js for the 3D rendering and WebVR for the VR support. 100% Javascript and runs in Browser.</p>
+            <a className="btn btn-primary btn-lg mr-2" href="https://chriseddy.github.io/threejs-webvr-solarsystem/" role="button">Visit Website</a>
+            <a className="btn btn-secondary btn-lg" href="https://github.com/ChrisEddy/threejs-webvr-solarsystem" role="button">Github Repo</a>
           </div>
 
           <div id='docsCol' className='col-lg-8 col-md-12 col-sm-12 col-xs-12'>
             <h4>Navigate</h4>
             <div className="btn-group pb-1" data-toggle="buttons">
-              <button type="button" className="btn btn-success" value='freshthreads' aria-pressed='false' onClick={ this.handleChange }>Fresh-Threads</button>
+              <button type="button" className="btn btn-success" value='solarsystem' aria-pressed='false' onClick={ this.handleChange }>Solar System</button>
               <button type="button" className="btn btn-secondary focus active" aria-pressed='true' value='docs' onClick={ this.handleChange }>Exokit Docs</button>
               <button type="button" className="btn btn-primary" value='bulldog' aria-pressed='false' onClick={ this.handleChange }>Bulldog Auto</button>
             </div>
@@ -103,7 +103,7 @@ class PortfolioSection extends Component {
           <div id='bulldogCol' className='col-lg-8 col-md-12 col-sm-12 col-xs-12'>
             <h4>Navigate</h4>
             <div className="btn-group pb-1" data-toggle="buttons">
-              <button type="button" className="btn btn-success" value='freshthreads' aria-pressed='false' onClick={ this.handleChange }>Fresh-Threads</button>
+              <button type="button" className="btn btn-success" value='solarsystem' aria-pressed='false' onClick={ this.handleChange }>Solar System</button>
               <button type="button" className="btn btn-secondary" value='docs' aria-pressed='false' onClick={ this.handleChange }>Exokit Docs</button>
               <button type="button" className="btn btn-primary focus active" value='bulldog' aria-pressed='true' onClick={ this.handleChange }>Bulldog Auto</button>
             </div>
