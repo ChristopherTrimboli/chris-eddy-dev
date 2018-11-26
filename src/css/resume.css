@@ -19,3 +19,7 @@
 .Resume hr{
     margin-right: 75%;
 }
+.Resume input{
+    max-width: 400px;
+    text-align: center;
+}

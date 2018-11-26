@@ -6,6 +6,7 @@
     "ajv": "^6.5.2",
     "aws-sdk": "^2.275.1",
     "bootstrap": "^4.1.2",
+    "firebase": "^5.5.9",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.3",
     "react": "^16.4.1",
