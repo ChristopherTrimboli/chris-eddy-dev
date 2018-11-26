@@ -45,7 +45,9 @@ class Resume extends Component {
     console.log('signing in...')
     firebase.auth().signInWithEmailAndPassword(this.state.email, this.state.password)
     .then(() => {
-      console.log('Succesful Sign-In!')
+      console.log('Succesful Sign-In!');
+      document.getElementById('passForm').style.border = '1px solid green';
+      document.getElementById('emailForm').style.border = '1px solid green';
     })
     .catch(function(error) {
       var errorCode = error.code;
@@ -83,8 +85,6 @@ class Resume extends Component {
         <div className='row'>
 
           <div className='col'>
-            <h4>Sign-In and view my Resume!</h4>
-            <br/>
             <br/>
             <form className='justify-content-center'>
               <div className="form-group pl-3 pr-3">
