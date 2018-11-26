@@ -1,0 +1,21 @@
+.Resume {
+    min-height: 50vh;
+    width: auto;
+    position: relative;
+    color: black;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.Resume .subHeading{
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+    .Resume hr{
+        margin-right: 30%;
+    }
+}
+.Resume hr{
+    margin-right: 75%;
+}
