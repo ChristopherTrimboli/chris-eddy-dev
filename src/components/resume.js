@@ -79,7 +79,7 @@ class Resume extends Component {
         <div className="modal-dialog modal-lg">
           <div className="modal-content p-2">
           <div className="modal-header">
-            <h5 className="modal-title">My Resume</h5>
+            <h5 className="modal-title">Chris Eddy's Resume</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -90,33 +90,43 @@ class Resume extends Component {
           <p>Camosun College 2017 – Now</p>
           <p>I am currently in the 2nd year of the diploma program.</p>
           <p>Info: <a href='http://camosun.ca/learn/programs/information-computer-systems/'>http://camosun.ca/learn/programs/information-computer-systems/</a></p>
+          <hr/>
 
           <h4>Work Experience</h4>
+
           <h5>Full-Stack Web Developer</h5>
           <p>Exokit, VR/AR JavaScript Engine | May 2018 – Now</p>
           <p>I have been working as an open-source contributor on various projects for Exokit.
-Exokit is a tech start-up with team members currently working remotely across North America.
-</p>
-<p>Exokit Documentation Site: <a href='https://docs.webmr.io/'>https://docs.webmr.io/</a></p>
+          Exokit is a tech start-up with team members currently working remotely across North America.
+          </p>
+          <p>Exokit Documentation Site: <a href='https://docs.webmr.io/'>https://docs.webmr.io/</a></p>
+          <p>I have 2 other big projects for Exokit that are currently not-released.</p>
+          <hr/>
 
-                    
+          <h5>Freelance Web Developer</h5>
+          <p>New Island Highway, local political organization| July – Aug 2018</p>
+          <p>New Island Highway started with a client’s vision of building a bridge across to Vancouver and Salt
+          Spring Island.</p>
+          <p> A notable technology point in the website is the voting section. I used Firebase as the
+database and prevent users from voting more then once. Frontend is made in React and uses Bootstrap.</p>
+          <p></p>
+          <p>New Island Highway Site: <a href='https://www.new-island-highway.ca/'>https://www.new-island-highway.ca/</a></p>
+          <hr/>
 
-I have 2 other big projects for Exokit that are currently not-released.
-Freelance Web Developer | New Island Highway, local political organization| July – Aug 2018
-New Island Highway started with a client’s vision of building a bridge across to Vancouver and Salt
-Spring Island. A notable technology point in the website is the voting section. I used Firebase as the
-database and prevent users from voting more then once. Frontend is made in React and uses Bootstrap.
-New Island Highway Site: https://www.new-island-highway.ca/
-Freelance Web Developer | Bulldog Autoworks, mechanic shop in Langford | Jan – Feb 2018
-I designed and built the entire website of their company. This included using Bootstrap and HTML/CSS
-with some JavaScript to handle the Google reviews section. This website was my first gig. I’ve grown
-since as a developer, but it is still noteworthy I think.
-Bulldog Autoworks Site: https://bulldogautoworks.ca/
-Noteworthy Side-Projects I Made
-Fresh-Threads | Shopping Cart Web App | PHP, MySQL, Bootstrap, JavaScript, AWS
-Fresh-Threads Site: http://www.fresh-threads.ca/fresh-threads/php/shop/shop.php
-My Portfolio Website | React, Bootstrap, AWS, Font Awesome
-Portfolio Site: https://www.chris-eddy.ca/
+          <h5>Freelance Web Developer</h5>
+          <p>Bulldog Autoworks, mechanic shop in Langford | Jan – Feb 2018</p>
+          <p>I designed and built the entire website of their company. This included using Bootstrap and HTML/CSS
+with some JavaScript to handle the Google reviews section.</p>
+          <p>This website was my first gig. I’ve grown since as a developer, but it is still noteworthy I think.</p>
+          <p></p>
+          <p>Bulldog Autoworks Site: <a href='https://bulldogautoworks.ca/'>https://bulldogautoworks.ca/</a></p>
+          <hr/>
+
+          <h4>Noteworthy Side-Projects</h4>
+          <p>Fresh-Threads | Shopping Cart Web App | PHP, MySQL, Bootstrap, JavaScript, AWS</p>
+          <p>Fresh-Threads Site: <a href='http://www.fresh-threads.ca/fresh-threads/php/shop/shop.php'>http://www.fresh-threads.ca/fresh-threads/php/shop/shop.php</a></p>
+          <p>My Portfolio Website | React, Bootstrap, AWS, Font Awesome</p>
+          <p>Portfolio Site: <a href='https://www.chris-eddy.ca/'>https://www.chris-eddy.ca/</a></p>
           </div>
         </div>
       </div>
