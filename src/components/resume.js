@@ -13,6 +13,7 @@ class Resume extends Component {
     this.signIn = this.signIn.bind(this);
     this.handleEmail = this.handleEmail.bind(this);
     this.handlePassword = this.handlePassword.bind(this);
+    this.toggleElement = this.toggleElement.bind(this);
   }
 
   componentDidMount() {
@@ -25,6 +26,9 @@ class Resume extends Component {
       messagingSenderId: "711328526240"
     };
     firebase.initializeApp(config);
+    this.toggleElement('spinner', true);
+    this.toggleElement('loginButton', false);
+    this.toggleElement('resumeButton', true);
   }
 
   handleEmail(event){
@@ -39,17 +43,32 @@ class Resume extends Component {
     document.getElementById('emailForm').style.border = '1px solid #ced4da';
   }
 
+  toggleElement(elementID, boolean){
+    let element = document.getElementById(elementID);
+    if(element){
+      element.hidden = boolean;
+    }
+    else{
+      console.log('Element does not exist')
+    }
+  }
+
   signIn(e){
     e.preventDefault();
-    console.log('signing in...')
+    this.toggleElement('spinner', false);
+    this.toggleElement('loginButton', true);
+    this.toggleElement('resumeButton', true);
+    console.log('Signing In...')
     firebase.auth().signInWithEmailAndPassword(this.state.email, this.state.password)
     .then(() => {
       console.log('Succesful Sign-In!');
       document.getElementById('passForm').style.border = '1px solid green';
       document.getElementById('emailForm').style.border = '1px solid green';
-
+      this.toggleElement('spinner', true);
+      this.toggleElement('loginButton', true);
+      this.toggleElement('resumeButton', false);
     })
-    .catch(function(error) {
+    .catch((error) => {
       var errorCode = error.code;
       var errorMessage = error.message;
       if (errorCode === 'auth/wrong-password') {
@@ -67,6 +86,9 @@ class Resume extends Component {
       else {
         console.log(errorMessage);
       }
+      this.toggleElement('spinner', true);
+      this.toggleElement('loginButton', false);
+      this.toggleElement('resumeButton', true);
       console.log(error);
       })
     }
@@ -143,6 +165,7 @@ with some JavaScript to handle the Google reviews section.</p>
           <div className='col'>
             <br/>
             <form className='justify-content-center'>
+            <p>Authenticate to view my personal resume.</p>
               <div className="form-group pl-3 pr-3">
                 <div className='row'>
                   <div className='col'>
@@ -158,7 +181,13 @@ with some JavaScript to handle the Google reviews section.</p>
                   </div>
                 </div>
               </div>
-              <button data-toggle="modal" data-target=".bd-example-modal-lg" type="submit" className="btn btn-primary" onClick={this.signIn}>Sign-In</button>
+              <div className='row'>
+                <div className='col'>
+                <button id='resumeButton' data-toggle="modal" data-target=".bd-example-modal-lg" type="button" className="btn btn-primary">View Resume</button>
+                <button id='loginButton' type="submit" className="btn btn-primary" onClick={this.signIn}>Sign-In</button>
+                <div id='spinner' class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+                </div>
+              </div>
             </form>
           </div>
 
