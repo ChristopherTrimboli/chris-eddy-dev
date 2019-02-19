@@ -7,7 +7,7 @@ import view from '../images/gallery/view.jpg';
 import champ from '../images/gallery/champ.jpg';
 import t1 from '../images/gallery/t1.jpg';
 import goose from '../images/gallery/goose.jpg';
-import couple from '../images/gallery/couple.jpg';
+import exokitNew from '../images/gallery/exokitNew.PNG';
 
 class ContactSection extends Component {
 
@@ -100,7 +100,7 @@ class ContactSection extends Component {
                      className="img-thumbnail rounded hvr-grow" data-toggle="modal" data-target="#galleryModal"/>
               </div>
               <div className='col-lg-3 col-md-3 col-sm-6 col-xs-6 mt-4'>
-                <img src={couple} alt="Qt couple" onClick={() => {this.changeImage(couple, 'Me and Emma <3')}}
+                <img src={exokitNew} alt="Exokit" onClick={() => {this.changeImage(exokitNew, 'Exokit')}}
                      className="img-thumbnail rounded hvr-grow" data-toggle="modal" data-target="#galleryModal"/>
               </div>
             </div>

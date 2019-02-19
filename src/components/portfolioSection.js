@@ -79,7 +79,7 @@ class PortfolioSection extends Component {
               <button type="button" className="btn btn-secondary" value='docs' onClick={ this.handleChange }>Exokit Docs</button>
               <button type="button" className="btn btn-primary" value='bulldog' onClick={ this.handleChange }>Bulldog Auto</button>
             </div>
-            <iframe width="100%" height="400" allowFullScreen="yes" scrolling="no" src="https://chriseddy.github.io/threejs-webvr-solarsystem/"/>
+            <iframe width="100%" title='solar-system' height="400" allowFullScreen="yes" scrolling="no" src="https://chriseddy.github.io/threejs-webvr-solarsystem/"/>
             <h3>Three.js + WebVR Solar System</h3>
             <p className='text-left'>This is a fun project im making that utilizes three.js for the 3D rendering and WebVR for the VR support. 100% Javascript and runs in Browser.</p>
             <a className="btn btn-primary btn-lg mr-2" href="https://chriseddy.github.io/threejs-webvr-solarsystem/" role="button">Visit Website</a>
