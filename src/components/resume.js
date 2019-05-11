@@ -97,12 +97,12 @@ class Resume extends Component {
     return (
       <div className="Resume">
 
-      <div className="modal fade bd-example-modal-lg text-left" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div className="modal fade bd-example-modal-lg text-left" tabIndex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div className="modal-dialog modal-lg">
           <div className="modal-content p-2">
           <div className="modal-header">
             <h5 className="modal-title">Chris Eddy's Resume</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <button type="button" className="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
@@ -185,7 +185,7 @@ with some JavaScript to handle the Google reviews section.</p>
                 <div className='col'>
                 <button id='resumeButton' data-toggle="modal" data-target=".bd-example-modal-lg" type="button" className="btn btn-primary">View Resume</button>
                 <button id='loginButton' type="submit" className="btn btn-primary" onClick={this.signIn}>Sign-In</button>
-                <div id='spinner' class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+                <div id='spinner' className="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
                 </div>
               </div>
             </form>

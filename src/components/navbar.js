@@ -45,9 +45,9 @@ class Navbar extends Component {
                   Portfolio
                 </a>
                 <div className="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item" href="https://exokit.webmr.io/">Exokit site</a>
-                  <a className="dropdown-item" href="https://www.fresh-threads.ca/fresh-threads/php/shop/shop.php">fresh-threads</a>
-                  <a className="dropdown-item" href="https://bulldogautoworks.ca/">Bulldog Autoworks Ltd.</a>
+                  <a className="dropdown-item" href="https://exokit.org/">Exokit</a>
+                  <a className="dropdown-item" href="https://chriseddy.github.io/threejs-webvr-solarsystem/">Solar-System</a>
+                  <a className="dropdown-item" href="http://dev.taskoli.com/">Taskoli</a>
                 </div>
               </li>
             </ul>

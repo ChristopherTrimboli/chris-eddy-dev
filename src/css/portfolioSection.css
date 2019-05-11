@@ -7,18 +7,13 @@
   background-color: #ececec;
   text-align: center;
 }
-.portfolioSection .jumbotron1{
-  background-image: url("../images/fresh-threads.PNG");
-  background-size: cover;
-  height: 40vh;
-}
 .portfolioSection .jumbotron2{
-  background-image: url("../images/docs.PNG");
+  background-image: url("../images/exokit.png");
   background-size: cover;
   height: 40vh;
 }
 .portfolioSection .jumbotron3{
-  background-image: url("../images/bulldogAuto.PNG");
+  background-image: url("../images/taskoli.png");
   background-size: cover;
   height: 40vh;
 }
@@ -48,13 +43,10 @@ hr{
   .portfolioSection .btn{
     font-size: smaller;
   }
-  .portfolioSection .jumbotron1{
-    background-image: url("../images/freshThreads-smallv2.PNG");
-  }
   .portfolioSection .jumbotron2{
-    background-image: url("../images/docspic.PNG");
+    background-image: url("../images/exokit.png");
   }
   .portfolioSection .jumbotron3{
-    background-image: url("../images/bulldog-small.PNG");
+    background-image: url("../images/taskoli.png");
   }
 }

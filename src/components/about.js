@@ -12,9 +12,10 @@ class AboutSection extends Component {
 
             <h3 className='subHeading display-4 pt-5'>About Me</h3>
             <hr/>
-            <p className='lead'>I first got into programming about 2 years ago, doing some basic Python stuff.  I had fun with learning programming and decided to take it further as a career. I am now studying in my 2nd year of Information and Computer Systems at Camosun College.</p>
-            <p className='lead'>I am proudly born and raised in British Columbia. I'm all about the Vancouver Island life and enjoy hiking the trails and coastlines.</p>
-            <p className='lead'>My major long term goals include: finishing my diploma at Camosun College, buying a Suburu WRX STI, getting back into snowboarding, and continuing to write some damn good code.</p>
+            <p className='lead'>I first got into programming about 3 years ago, doing some basic Python stuff.  I had fun with learning programming and decided to take it further as a career. I went on to study at Camosun College in Information and Computer Systems.</p>
+            <p className='lead'>I am proudly born and raised in British Columbia. My hobbies include, hiking, climbing, reading and biking.</p>
+            <p className='lead'>My passion for coding revolves around full-stack web development. I enjoy making things work and bringing everything together. If I had to lean to one side, I'd lean towards frontend.</p>
+            <p className='lead'>I ❤ Javascript.</p>
           </div>
 
           <div className='skillsGrid col-lg-6 col-md-12 col-sm-12 col-xs-12'>
@@ -29,8 +30,8 @@ class AboutSection extends Component {
                 <p>React</p>
               </div>
               <div className='iconCol col-lg-3 col-md-3 col-sm-6 col-xs-12'>
-                <i className="fab fa-java fa-4x"/>
-                <p>Java</p>
+                <i className="fab fa-python fa-4x"/>
+                <p>Python</p>
               </div>
               <div className='iconCol col-lg-3 col-md-3 col-sm-6 col-xs-12'>
                 <i className="fab fa-node fa-4x"/>
@@ -56,15 +57,14 @@ class AboutSection extends Component {
                 <p>CSS3</p>
               </div>
               <div className='iconCol col-lg-3 col-md-3 col-sm-6 col-xs-12'>
-                <i className="fab fa-php fa-4x"/>
-                <p>PHP 7</p>
+                <i className="fab fa-angular fa-4x"/>
+                <p>Angular</p>
               </div>
             </div>
 
             <div className='row pr-4 pl-4 pb-5'>
               <div className='col-12'>
-                <span className="badge badge-pill badge-primary m-2">MySQL</span>
-                <span className="badge badge-pill badge-secondary m-2">Full-Stack</span>
+                <span className="badge badge-pill badge-primary m-2">SQL</span>
                 <span className="badge badge-pill badge-success m-2">Linux</span>
                 <span className="badge badge-pill badge-dark m-2">Bootstrap</span>
                 <span className="badge badge-pill badge-warning m-2">Redux</span>
