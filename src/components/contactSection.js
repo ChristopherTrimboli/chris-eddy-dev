@@ -5,9 +5,10 @@ import trail from '../images/gallery/trail.jpg';
 import forest from '../images/gallery/forest.jpg';
 import view from '../images/gallery/view.jpg';
 import champ from '../images/gallery/champ.jpg';
-import t1 from '../images/gallery/t1.jpg';
 import goose from '../images/gallery/goose.jpg';
 import exokitNew from '../images/gallery/exokitNew.PNG';
+import react from '../images/gallery/react.jpg';
+import '../css/hover-min.css';
 
 class ContactSection extends Component {
 
@@ -35,30 +36,30 @@ class ContactSection extends Component {
             <h3 className='subHeading display-4'>Contact Me</h3>
             <hr/>
             <div className='p-4'>
-              <a href='mailto:chris.eddy.dev@gmail.com'>
+              <a href='mailto:chris.eddy.dev@gmail.com' target='_blank' rel="noopener noreferrer">
                 <i className="far fa-envelope-open fa-2x mb-3"/>
                 <p className='lead'>chris.eddy.dev@gmail.com</p>
               </a>
             </div>
 
             <div className='p-4'>
-              <a href='tel:+12505800869' type="tel">
+              <a href='tel:+16047640869' type="tel" target='_blank' rel="noopener noreferrer">
                 <i className="fas fa-phone fa-2x mb-3"/>
-                <p className='lead'>250-580-0869</p>
+                <p className='lead'>604-764-0869</p>
               </a>
             </div>
 
             <div className='socialRow row'>
               <div className='col-4'>
-                <a href='https://twitter.com/ChrisEddyDev'>
-                  <i className="fab fa-twitter fa-2x"/> Twitter
+                <a href='https://github.com/ChrisEddy' target='_blank' rel="noopener noreferrer">
+                  <i className="fab fa-github-square fa-2x"/> Github
                 </a>
               </div>
               <div className='col-4'>
 
               </div>
               <div className='col-4'>
-                <a href='https://www.linkedin.com/in/chris-eddy-394784160/'>
+                <a href='https://www.linkedin.com/in/chris-eddy-394784160/' target='_blank' rel="noopener noreferrer">
                   <i className="fab fa-linkedin fa-2x"/> LinkedIn
                 </a>
               </div>
@@ -92,7 +93,7 @@ class ContactSection extends Component {
                      className="img-thumbnail rounded hvr-grow" data-toggle="modal" data-target="#galleryModal"/>
               </div>
               <div className='col-lg-3 col-md-3 col-sm-6 col-xs-6 mt-4'>
-                <img src={t1} alt="Tyler1" onClick={() => {this.changeImage(t1, 'Alpha AF')}}
+                <img src={react} alt="React Conference" onClick={() => {this.changeImage(react, 'React Conference Vancouver')}}
                      className="img-thumbnail rounded hvr-grow" data-toggle="modal" data-target="#galleryModal"/>
               </div>
               <div className='col-lg-3 col-md-3 col-sm-6 col-xs-6 mt-4'>

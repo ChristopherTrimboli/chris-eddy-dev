@@ -10,7 +10,7 @@
   padding-right: 20px;
   text-align: left;
 }
-.navbar a:not([href]):not([tabindex]){
+.navbar span:not([href]):not([tabindex]){
   color: #fff;
 }
 .navbar .nav-item{

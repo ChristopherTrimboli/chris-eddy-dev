@@ -6,8 +6,6 @@ import TitleSection from "./components/titleSection";
 import AboutSection from "./components/about";
 import ContactSection from "./components/contactSection";
 import PortfolioSection from "./components/portfolioSection";
-import FreelanceSection from "./components/freelanceSection";
-import Resume from "./components/resume";
 
 class App extends Component {
   render() {
@@ -17,8 +15,6 @@ class App extends Component {
         <TitleSection/>
         <AboutSection/>
         <PortfolioSection/>
-        <Resume/>
-        <FreelanceSection/>
         <ContactSection/>
       </div>
     );

@@ -12,10 +12,10 @@ class AboutSection extends Component {
 
             <h3 className='subHeading display-4 pt-5'>About Me</h3>
             <hr/>
-            <p className='lead'>I first got into programming about 3 years ago, doing some basic Python stuff.  I had fun with learning programming and decided to take it further as a career. I went on to study at Camosun College in Information and Computer Systems.</p>
-            <p className='lead'>I am proudly born and raised in British Columbia. My hobbies include, hiking, climbing, reading and biking.</p>
-            <p className='lead'>My passion for coding revolves around full-stack web development. I enjoy making things work and bringing everything together. If I had to lean to one side, I'd lean towards frontend.</p>
-            <p className='lead'>I ❤ Javascript.</p>
+            <p className='lead'>I first got into programming about 4 years ago, doing some basic Python stuff.  I had fun with learning programming and decided to take it further as a career. I went on to study at <a href='http://camosun.ca/' target='_blank' rel="noopener noreferrer">Camosun College</a> in <a href='http://camosun.ca/learn/programs/information-computer-systems/' target='_blank' rel="noopener noreferrer">Information and Computer Systems</a>.</p>
+            <p className='lead'>My passion for coding revolves around full-stack web development in Javascript. I enjoy making things work and bringing everything together.</p>
+            <p className='lead'>I'm currently employed as a Frontend Developer for <a href='https://www.conetec.com/' target='_blank' rel="noopener noreferrer">ConeTec</a> in Vancouver, BC.</p>
+            <p className='lead'>Always learning, always growing.</p>
           </div>
 
           <div className='skillsGrid col-lg-6 col-md-12 col-sm-12 col-xs-12'>

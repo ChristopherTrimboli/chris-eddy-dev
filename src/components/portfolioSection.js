@@ -57,16 +57,19 @@ class PortfolioSection extends Component {
             <h3 className='subHeading display-4'>My Portfolio</h3>
             <hr/>
             <p className='lead'>
-              These projects are a collection of my top three favorite projects I have made to date.
+              These projects are a collection of my top three public projects I have made to date.
             </p>
             <p className='lead'>
               Feel free to take a gander and have a peek. Each site has an accompanied Github link if you would like to see the code.
             </p>
             <p className='lead'>
-              They range from fun stuff to more serious professional projects.
+              My Github ranges from fun stuff to more serious professional projects.
             </p>
             <p className='lead'>
-              If you want to see what im currently working on, visit my <a href='https://github.com/ChrisEddy'>Github</a> and take a look at my other projects.
+              If you want to see what im currently working on, visit my <a href='https://github.com/ChrisEddy' target='_blank' rel="noopener noreferrer">Github</a> and take a look at my other projects.
+            </p>
+            <p className='lead'>
+              Most professional work I've done is not able to be presented online like this, so if you would like my resume and more information about my work history, contact me.
             </p>
           </div>
 
@@ -113,7 +116,7 @@ class PortfolioSection extends Component {
             <h3>Taskoli</h3>
             <p className='text-left'>I did some work for Taskoli. I rewrote their UI/Frontend from designer mockups, instant messaging, emails, user account creation, CSS refactors, and more. This was very a full-stack job, did lots of everything while focusing on the UI. Built in Angular and Node with MariaDB.</p>
             <a className="btn btn-primary btn-lg mr-2" href="http://dev.taskoli.com/" role="button">Visit Website</a>
-            <a className="btn btn-secondary btn-lg disabled" href="" role="button">Code is Private</a>
+            <span className="btn btn-secondary btn-lg disabled" href="" role="button">Code is Private</span>
           </div>
 
         </div>

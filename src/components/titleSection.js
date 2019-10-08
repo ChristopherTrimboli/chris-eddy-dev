@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../css/titleSection.css';
-import profileImage from '../images/me.png';
-import '../css/Hover-master/css/hover.css';
+import profileImage from '../images/me.jpg';
 
 class TitleSection extends Component {
 
@@ -29,12 +28,12 @@ class TitleSection extends Component {
             </div>
             <div className='col-12 d-flex justify-content-center align-self-center'>
               <p className='lead'>
-                Full-Stack Web Developer
+                Web Developer
               </p>
             </div>
             <div className='col-12 d-flex justify-content-center align-self-center'>
               <p className='locationText'>
-                Victoria, B.C. | Camosun College
+                Vancouver, BC
               </p>
             </div>
           </div>
