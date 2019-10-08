@@ -80,12 +80,11 @@ class PortfolioSection extends Component {
               <button type="button" className="btn btn-secondary" value='exokit' onClick={ this.handleChange }>Exokit</button>
               <button type="button" className="btn btn-primary" value='taskoli' onClick={ this.handleChange }>Taskoli</button>
             </div>
-            <iframe width="100%" title='solar-system' height="400" allowFullScreen="yes" scrolling="no" src="https://chriseddy.github.io/threejs-webvr-solarsystem/"/>
-            <br/>
+            <div className="jumbotron jumbotron1"/>
             <h3>Three.js + WebVR Solar System</h3>
             <p className='text-left'>This is a fun project I played with that utilizes Three.js for the 3D rendering and WebVR for the VR support. 100% Javascript and runs in Browser. Was lots of fun to make, in VR you can fly around.</p>
-            <a className="btn btn-primary btn-lg mr-2" href="https://chriseddy.github.io/threejs-webvr-solarsystem/" role="button">Visit Website</a>
-            <a className="btn btn-secondary btn-lg" href="https://github.com/ChrisEddy/threejs-webvr-solarsystem" role="button">Github Repo</a>
+            <a className="btn btn-primary btn-lg mr-2" href="https://chriseddy.github.io/threejs-webvr-solarsystem/" role="button" target='_blank' rel="noopener noreferrer">Visit Website</a>
+            <a className="btn btn-secondary btn-lg" href="https://github.com/ChrisEddy/threejs-webvr-solarsystem" role="button" target='_blank' rel="noopener noreferrer">Github Repo</a>
           </div>
 
           <div id='exokitCol' className='col-lg-8 col-md-12 col-sm-12 col-xs-12'>
@@ -100,8 +99,8 @@ class PortfolioSection extends Component {
             <h3>Exokit Landing Page</h3>
             <p className='text-left'>I created the frontend for Exokit's landing page. It features custom parralax code for moving elements on scroll. Design comes from a designer. Three.js is used for the 3D scenes. Exokit is a 3D VR/AR company who specialzes in bringing VR/AR to the web.
             </p>
-            <a className="btn btn-primary btn-lg mr-2" href="https://exokit.org/" role="button">Visit Website</a>
-            <a className="btn btn-secondary btn-lg" href="https://github.com/webmixedreality/webmr-docs" role="button">Github Repo</a>
+            <a className="btn btn-primary btn-lg mr-2" href="https://exokit.org/" role="button" target='_blank' rel="noopener noreferrer">Visit Website</a>
+            <a className="btn btn-secondary btn-lg" href="https://github.com/webmixedreality/webmr-docs" role="button" target='_blank' rel="noopener noreferrer">Github Repo</a>
           </div>
 
           <div id='taskoliCol' className='col-lg-8 col-md-12 col-sm-12 col-xs-12'>
@@ -115,7 +114,7 @@ class PortfolioSection extends Component {
             <div className="jumbotron jumbotron3"/>
             <h3>Taskoli</h3>
             <p className='text-left'>I did some work for Taskoli. I rewrote their UI/Frontend from designer mockups, instant messaging, emails, user account creation, CSS refactors, and more. This was very a full-stack job, did lots of everything while focusing on the UI. Built in Angular and Node with MariaDB.</p>
-            <a className="btn btn-primary btn-lg mr-2" href="http://dev.taskoli.com/" role="button">Visit Website</a>
+            <a className="btn btn-primary btn-lg mr-2" href="http://dev.taskoli.com/" role="button" target='_blank' rel="noopener noreferrer">Visit Website</a>
             <span className="btn btn-secondary btn-lg disabled" href="" role="button">Code is Private</span>
           </div>
 

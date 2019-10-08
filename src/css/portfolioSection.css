@@ -7,6 +7,11 @@
   background-color: #ececec;
   text-align: center;
 }
+.portfolioSection .jumbotron1{
+  background-image: url("../images/solar.png");
+  background-size: cover;
+  height: 40vh;
+}
 .portfolioSection .jumbotron2{
   background-image: url("../images/exokit.png");
   background-size: cover;
