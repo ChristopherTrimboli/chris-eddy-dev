@@ -12,10 +12,12 @@ class AboutSection extends Component {
 
             <h3 className='subHeading display-4 pt-5'>About Me</h3>
             <hr/>
-            <p className='lead'>I first got into programming about 4 years ago, doing some basic Python stuff.  I had fun with learning programming and decided to take it further as a career. I went on to study at <a href='http://camosun.ca/' target='_blank' rel="noopener noreferrer">Camosun College</a> in <a href='http://camosun.ca/learn/programs/information-computer-systems/' target='_blank' rel="noopener noreferrer">Information and Computer Systems</a>.</p>
-            <p className='lead'>My passion for coding revolves around full-stack web development in Javascript. I enjoy making things work and bringing everything together.</p>
-            <p className='lead'>I'm currently employed as a Frontend Developer for <a href='https://www.conetec.com/' target='_blank' rel="noopener noreferrer">ConeTec</a> in Vancouver, BC.</p>
-            <p className='lead'>Always learning, always growing.</p>
+            <p className='lead'>Passionate, ambitious and professional Software Engineer with 5 years of software development experience.</p>
+            <p className='lead'>My area of specialty is in Web Application development.</p>
+            <p className="lead">I am skilled in React, Node.js, various Javascript frameworks/libraries, fullstack web programming and SQL databases.</p>
+            <p className="lead">My goals for 2020 are to have more fun with Rust and WebAssembly, implement more Typescript code, and maybe go skydiving!</p>
+            <p className="lead">Currently, I am living and working in the beautiful city of Vancouver, BC.</p>
+            <p className='lead'>I am happily employed with <a href='https://www.ecoation.com/' target='_blank' rel="noopener noreferrer">Ecoation</a> as a Software Engineer working to revolutionize the way humans grow food!</p>
           </div>
 
           <div className='skillsGrid col-lg-6 col-md-12 col-sm-12 col-xs-12'>

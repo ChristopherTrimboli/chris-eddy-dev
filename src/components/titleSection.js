@@ -28,7 +28,7 @@ class TitleSection extends Component {
             </div>
             <div className='col-12 d-flex justify-content-center align-self-center'>
               <p className='lead'>
-                Web Developer
+                Software Engineer
               </p>
             </div>
             <div className='col-12 d-flex justify-content-center align-self-center'>
