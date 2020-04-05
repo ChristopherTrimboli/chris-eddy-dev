@@ -31,7 +31,7 @@ class ContactSection extends Component {
   render() {
     return (
       <div id='contact' className="contactSection pb-3">
-        <div className='row pt-5 pr-2 pl-2 pb-5'>
+        <div className='row pt-5 pr-2 pl-2 pb-4'>
           <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12'>
             <h3 className='subHeading display-4'>Contact Me</h3>
             <hr/>

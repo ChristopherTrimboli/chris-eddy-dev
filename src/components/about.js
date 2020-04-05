@@ -6,7 +6,7 @@ class AboutSection extends Component {
     return (
       <div id='aboutMe' className="aboutSection">
 
-        <div className='row pr-2 pl-2'>
+        <div className='row pr-2 pl-2 pb-3'>
 
           <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12'>
 
@@ -17,7 +17,6 @@ class AboutSection extends Component {
             <p className="lead">I am skilled in React, Node.js, various Javascript frameworks/libraries, fullstack web programming and SQL databases.</p>
             <p className="lead">My goals for 2020 are to have more fun with Rust and WebAssembly, implement more Typescript code, and maybe go skydiving!</p>
             <p className="lead">Currently, I am living and working in the beautiful city of Vancouver, BC.</p>
-            <p className='lead'>I am happily employed with <a href='https://www.ecoation.com/' target='_blank' rel="noopener noreferrer">Ecoation</a> as a Software Engineer working to revolutionize the way humans grow food!</p>
           </div>
 
           <div className='skillsGrid col-lg-6 col-md-12 col-sm-12 col-xs-12'>
